@@ -1525,6 +1525,182 @@
       left: 20px;
     }
 
+    /* ==========================================================================
+       PDF PREVIEW MODAL & HIGH-PERFORMANCE VIEWER
+       ========================================================================== */
+    #altaybat-web-root .at-pdf-modal-content {
+      max-width: 1040px;
+      width: 95%;
+      height: 90vh;
+      max-height: 90vh;
+      padding: 22px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: var(--at-white);
+      border-radius: var(--at-radius-lg);
+      border: 1px solid var(--at-border);
+      box-shadow: 0 25px 65px rgba(3, 32, 20, 0.4);
+      overflow: hidden;
+    }
+
+    #altaybat-web-root .at-pdf-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--at-border);
+      flex-wrap: wrap;
+    }
+
+    #altaybat-web-root .at-pdf-modal-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex: 1;
+      min-width: 220px;
+    }
+
+    #altaybat-web-root .at-pdf-icon-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--at-radius-sm);
+      background: var(--at-green-subtle);
+      color: var(--at-green);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      border: 1px solid var(--at-border);
+    }
+
+    #altaybat-web-root .at-pdf-modal-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--at-ink);
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    #altaybat-web-root .at-pdf-modal-subtitle {
+      font-size: 0.8rem;
+      color: var(--at-ink-muted);
+      display: block;
+      margin-top: 3px;
+    }
+
+    #altaybat-web-root .at-pdf-modal-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    #altaybat-web-root .at-pdf-modal-close {
+      position: static;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--at-ink-muted);
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--at-bg-alt);
+      transition: var(--at-transition);
+      border: 1px solid var(--at-border-subtle);
+      flex-shrink: 0;
+    }
+
+    #altaybat-web-root .at-pdf-modal-close:hover {
+      background: #fee2e2;
+      color: #dc2626;
+      border-color: rgba(220, 38, 38, 0.2);
+    }
+
+    #altaybat-web-root .at-pdf-viewer-wrapper {
+      flex: 1;
+      position: relative;
+      width: 100%;
+      min-height: 320px;
+      border-radius: var(--at-radius-sm);
+      overflow: hidden;
+      background: #f8faf9;
+      border: 1px solid var(--at-border);
+    }
+
+    #altaybat-web-root .at-pdf-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+      background: #FFFFFF;
+    }
+
+    #altaybat-web-root .at-pdf-loader {
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.94);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 5;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--at-green-dark);
+      transition: opacity 0.25s ease;
+    }
+
+    #altaybat-web-root .at-pdf-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3.5px solid var(--at-green-subtle);
+      border-top-color: var(--at-green);
+      border-radius: 50%;
+      animation: atSpin 0.75s linear infinite;
+    }
+
+    #altaybat-web-root .at-pdf-modal-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--at-border);
+      font-size: 0.82rem;
+      color: var(--at-ink-muted);
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      #altaybat-web-root .at-pdf-modal-content {
+        width: 100%;
+        max-width: 100%;
+        height: 94vh;
+        max-height: 94vh;
+        padding: 16px 14px;
+        margin-top: auto;
+        border-radius: 20px 20px 0 0;
+      }
+      #altaybat-web-root .at-pdf-modal-title {
+        font-size: 0.98rem;
+      }
+      #altaybat-web-root .at-pdf-icon-badge {
+        width: 36px;
+        height: 36px;
+        font-size: 1.1rem;
+      }
+      #altaybat-web-root .at-pdf-modal-actions .at-btn {
+        padding: 8px 12px;
+        font-size: 0.82rem;
+      }
+    }
+
     /* Tracking Status Timeline */
     #altaybat-web-root .at-track-steps {
       display: flex;
@@ -1770,6 +1946,9 @@
     </nav>
 
     <div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px;">
+      <button type="button" class="at-btn at-btn-outline at-btn-sm at-pdf-preview-btn" data-pdf-url="./Altaybat_Export_Profile_English.pdf" data-pdf-title-ar="الملف التعريفي لشركة الطيبات للتصدير" data-pdf-title-en="ALTAYBAT FOR EXPORT — Company Profile">
+        <span>📄</span> <span data-i18n="drawerBtnProfile">Company Profile PDF</span>
+      </button>
       <button class="at-btn at-btn-outline at-btn-sm" id="atPortalOpenBtnMobile" data-i18n="portalBtn">
         <span>🔒</span> Client Portal
       </button>
@@ -1896,9 +2075,9 @@
           <a href="#products" class="at-btn at-btn-outline" style="border-color: rgba(255,255,255,0.4); color: #fff;">
             <span>📦</span> <span data-i18n="heroBtnProducts">Explore Export Crops</span>
           </a>
-          <a href="./Altaybat_Export_Profile_English.pdf" download class="at-btn at-btn-sm" style="background: rgba(255,255,255,0.1); color: var(--at-gold-light); border: 1px solid rgba(200,162,58,0.4);">
-            <span>📥</span> <span data-i18n="heroBtnProfile">Company Profile PDF</span>
-          </a>
+          <button type="button" class="at-btn at-btn-sm at-pdf-preview-btn" data-pdf-url="./Altaybat_Export_Profile_English.pdf" data-pdf-title-ar="الملف التعريفي لشركة الطيبات للتصدير" data-pdf-title-en="ALTAYBAT FOR EXPORT — Company Profile" style="background: rgba(255,255,255,0.1); color: var(--at-gold-light); border: 1px solid rgba(200,162,58,0.4);">
+            <span>👁️</span> <span data-i18n="heroBtnProfile">Company Profile PDF</span>
+          </button>
         </div>
 
         <!-- Metric Counter Cards -->
@@ -2007,9 +2186,9 @@
             <a href="#products" class="at-btn at-btn-primary">
               <span data-i18n="aboutBtnCrops">Explore Crop Portfolio</span> ➔
             </a>
-            <a href="./Altaybat_Export_Profile_Arabic.pdf" download class="at-btn at-btn-outline">
-              <span>📄</span> <span data-i18n="aboutBtnArabicProfile">الملف التعريفي (عربي)</span>
-            </a>
+            <button type="button" class="at-btn at-btn-outline at-pdf-preview-btn" data-pdf-url="./Altaybat_Export_Profile_Arabic.pdf" data-pdf-title-ar="الملف التعريفي لشركة الطيبات للتصدير (عربي)" data-pdf-title-en="ALTAYBAT Company Profile (Arabic)">
+              <span>👁️</span> <span data-i18n="aboutBtnArabicProfile">الملف التعريفي (عربي)</span>
+            </button>
           </div>
         </div>
       </div>
@@ -2855,9 +3034,14 @@
           </div>
           <h3 class="at-doc-title">الملف التعريفي للشركة (عربي)</h3>
           <p class="at-doc-meta">Official Arabic Company Profile • 274 KB PDF</p>
-          <a href="./Altaybat_Export_Profile_Arabic.pdf" download class="at-btn at-btn-primary at-btn-sm">
-            <span>📥</span> تحميل الملف PDF
-          </a>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+            <button type="button" class="at-btn at-btn-outline at-btn-sm at-pdf-preview-btn" data-pdf-url="./Altaybat_Export_Profile_Arabic.pdf" data-pdf-title-ar="الملف التعريفي للشركة (عربي)" data-pdf-title-en="Company Profile (Arabic)" style="flex: 1; min-width: 110px;">
+              <span>👁️</span> <span data-i18n="docBtnPreview">معاينة PDF</span>
+            </button>
+            <a href="./Altaybat_Export_Profile_Arabic.pdf" download class="at-btn at-btn-primary at-btn-sm" style="flex: 1; min-width: 110px;">
+              <span>📥</span> <span data-i18n="docBtnDownload">تحميل PDF</span>
+            </a>
+          </div>
         </div>
 
         <!-- English Profile PDF -->
@@ -2867,9 +3051,14 @@
           </div>
           <h3 class="at-doc-title">Company Profile (English)</h3>
           <p class="at-doc-meta">Official English Corporate Profile • 106 KB PDF</p>
-          <a href="./Altaybat_Export_Profile_English.pdf" download class="at-btn at-btn-primary at-btn-sm">
-            <span>📥</span> Download PDF
-          </a>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+            <button type="button" class="at-btn at-btn-outline at-btn-sm at-pdf-preview-btn" data-pdf-url="./Altaybat_Export_Profile_English.pdf" data-pdf-title-ar="الملف التعريفي للشركة (إنجليزي)" data-pdf-title-en="Company Profile (English)" style="flex: 1; min-width: 110px;">
+              <span>👁️</span> <span data-i18n="docBtnPreview">Preview PDF</span>
+            </button>
+            <a href="./Altaybat_Export_Profile_English.pdf" download class="at-btn at-btn-primary at-btn-sm" style="flex: 1; min-width: 110px;">
+              <span>📥</span> <span data-i18n="docBtnDownload">Download PDF</span>
+            </a>
+          </div>
         </div>
 
         <!-- TDS White Beans -->
@@ -3183,6 +3372,43 @@
     </div>
   </div>
 
+  <!-- PDF Document Preview Modal -->
+  <div class="at-modal-backdrop" id="atPdfModal" role="dialog" aria-modal="true" aria-labelledby="atPdfModalTitle">
+    <div class="at-modal-content at-pdf-modal-content">
+      <div class="at-pdf-modal-header">
+        <div class="at-pdf-modal-title-wrap">
+          <span class="at-pdf-icon-badge">📄</span>
+          <div>
+            <h3 id="atPdfModalTitle" class="at-pdf-modal-title">Company Profile Preview</h3>
+            <span id="atPdfModalSubtitle" class="at-pdf-modal-subtitle" data-i18n="pdfModalSubtitle">Official Export Documentation • ALTAYBAT FOR EXPORT</span>
+          </div>
+        </div>
+        <div class="at-pdf-modal-actions">
+          <a id="atPdfExternalBtn" href="#" target="_blank" rel="noopener noreferrer" class="at-btn at-btn-outline at-btn-sm" title="Open in new window">
+            <span>⤢</span> <span data-i18n="pdfOpenTab">Full Tab</span>
+          </a>
+          <a id="atPdfDownloadBtn" href="#" download class="at-btn at-btn-primary at-btn-sm" title="Download original PDF">
+            <span>📥</span> <span data-i18n="pdfDownload">Download</span>
+          </a>
+          <button class="at-pdf-modal-close" id="atPdfModalClose" aria-label="Close Preview">&times;</button>
+        </div>
+      </div>
+      <div class="at-pdf-viewer-wrapper">
+        <div id="atPdfLoader" class="at-pdf-loader">
+          <div class="at-pdf-spinner"></div>
+          <span data-i18n="pdfLoading">Loading Document Preview...</span>
+        </div>
+        <iframe id="atPdfFrame" class="at-pdf-frame" src="" title="PDF Document Viewer"></iframe>
+      </div>
+      <div class="at-pdf-modal-footer">
+        <div>
+          <span data-i18n="pdfFallbackNotice">Viewing on mobile or having trouble scrolling?</span>
+          <a id="atPdfDirectLink" href="#" target="_blank" rel="noopener noreferrer" style="color: var(--at-green); font-weight: 700; text-decoration: underline; margin-left: 5px; margin-right: 5px;" data-i18n="pdfOpenDirectly">Tap here to open PDF directly in browser</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Toast Notification Element -->
   <div class="at-toast" id="atToast">
     <span>✅</span> <span id="atToastMsg">Action completed successfully.</span>
@@ -3361,6 +3587,16 @@
       btnImportCalc: "Import this Configuration into RFQ",
       btnCopyRfq: "Copy RFQ",
       btnPrintRfq: "Print Quote",
+      docBtnPreview: "Preview PDF",
+      docBtnDownload: "Download PDF",
+      pdfModalTitle: "Company Profile Preview",
+      pdfModalSubtitle: "Official Export Documentation • ALTAYBAT FOR EXPORT",
+      pdfOpenTab: "Full Tab",
+      pdfDownload: "Download",
+      pdfLoading: "Loading Document Preview...",
+      pdfFallbackNotice: "Viewing on mobile or having trouble scrolling?",
+      pdfOpenDirectly: "Tap to open PDF directly in browser",
+      drawerBtnProfile: "Company Profile PDF",
     },
 
     ar: {
@@ -3514,6 +3750,16 @@
       btnImportCalc: "استيراد هذه التشكيلة إلى طلب التسعير",
       btnCopyRfq: "نسخ الطلب للحافظة",
       btnPrintRfq: "طباعة العرض",
+      docBtnPreview: "معاينة PDF",
+      docBtnDownload: "تحميل PDF",
+      pdfModalTitle: "معاينة الملف التعريفي للشركة",
+      pdfModalSubtitle: "وثائق التصدير الرسمية • الطيبات للتصدير",
+      pdfOpenTab: "عرض كامل",
+      pdfDownload: "تحميل الملف",
+      pdfLoading: "جاري تجهيز وعرض المستند...",
+      pdfFallbackNotice: "هل تتصفح من الهاتف أو تواجه صعوبة في التمرير؟",
+      pdfOpenDirectly: "اضغط هنا لفتح الملف مباشرة في المتصفح",
+      drawerBtnProfile: "معاينة الملف التعريفي PDF",
     }
   };
 
@@ -4132,6 +4378,73 @@ Looking forward to establishing long-term business cooperation.`;
   }
 
   // ==========================================================================
+  // PDF PREVIEW VIEWER & CONTROLLER
+  // ==========================================================================
+  const pdfModal = $('#atPdfModal');
+  const pdfModalClose = $('#atPdfModalClose');
+  const pdfFrame = $('#atPdfFrame');
+  const pdfTitle = $('#atPdfModalTitle');
+  const pdfLoader = $('#atPdfLoader');
+  const pdfExternalBtn = $('#atPdfExternalBtn');
+  const pdfDownloadBtn = $('#atPdfDownloadBtn');
+  const pdfDirectLink = $('#atPdfDirectLink');
+
+  function openPdfModal(pdfUrl, titleAr, titleEn) {
+    if (!pdfModal || !pdfFrame) return;
+
+    const activeTitle = currentLang === 'ar' ? (titleAr || 'معاينة المستند') : (titleEn || 'Document Preview');
+    if (pdfTitle) pdfTitle.textContent = activeTitle;
+
+    if (pdfExternalBtn) pdfExternalBtn.href = pdfUrl;
+    if (pdfDownloadBtn) pdfDownloadBtn.href = pdfUrl;
+    if (pdfDirectLink) pdfDirectLink.href = pdfUrl;
+
+    if (pdfLoader) {
+      pdfLoader.style.display = 'flex';
+      pdfLoader.style.opacity = '1';
+    }
+
+    pdfFrame.onload = () => {
+      if (pdfLoader) {
+        pdfLoader.style.opacity = '0';
+        setTimeout(() => { pdfLoader.style.display = 'none'; }, 220);
+      }
+    };
+    pdfFrame.src = pdfUrl + '#view=FitH';
+
+    pdfModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closePdfModal() {
+    if (!pdfModal) return;
+    pdfModal.classList.remove('open');
+    if (pdfFrame) pdfFrame.src = 'about:blank';
+    document.body.style.overflow = '';
+  }
+
+  if (pdfModalClose) {
+    pdfModalClose.addEventListener('click', closePdfModal);
+  }
+
+  if (pdfModal) {
+    pdfModal.addEventListener('click', e => {
+      if (e.target === pdfModal) closePdfModal();
+    });
+  }
+
+  $$('.at-pdf-preview-btn', root).forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeMobileDrawer();
+      const pdfUrl = btn.getAttribute('data-pdf-url') || './Altaybat_Export_Profile_English.pdf';
+      const titleAr = btn.getAttribute('data-pdf-title-ar') || 'الملف التعريفي للشركة';
+      const titleEn = btn.getAttribute('data-pdf-title-en') || 'Company Profile (PDF)';
+      openPdfModal(pdfUrl, titleAr, titleEn);
+    });
+  });
+
+  // ==========================================================================
   // 6. MOBILE DRAWER & NAVIGATION
   // ==========================================================================
   const mobileToggle = $('#atMobileToggle');
@@ -4173,6 +4486,7 @@ Looking forward to establishing long-term business cooperation.`;
     if (e.key === 'Escape') {
       if (specModal) specModal.classList.remove('open');
       if (portalModal) portalModal.classList.remove('open');
+      closePdfModal();
       closeMobileDrawer();
     }
   });
