@@ -1,0 +1,3976 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTAYBAT FOR EXPORT | الطيبات للتصدير — Premium Egyptian Agricultural Products</title>
+  <meta name="description" content="ALTAYBAT FOR EXPORT is a leading Egyptian agricultural commodity producer and exporter specializing in machine-cleaned, Sortex 99.5% optical purity White Beans, Kabuli Chickpeas, Lentils, Fresh Citrus, and Pure Essential Oils.">
+  <meta name="keywords" content="Egyptian Agricultural Export, White Kidney Beans, Kabuli Chickpeas, Egyptian Lentils, Sortex 99.5%, Alexandria Port, Agricultural Commodities Egypt, B2B Food Exporter">
+  <meta name="author" content="ALTAYBAT FOR EXPORT">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ALTAYBAT FOR EXPORT | الطيبات للتصدير">
+  <meta property="og:description" content="Export Quality - Egyptian Origin. Sortex 99.5% optical purity agricultural commodities delivered worldwide from Egyptian ports.">
+  <meta property="og:image" content="./logo.png">
+
+  <!-- Favicon via SVG Data URI -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230B5D3B'/><path d='M30,70 C30,35 70,35 70,70 Z' fill='%23C8A23A'/><circle cx='50' cy='45' r='12' fill='%23FFFFFF'/></svg>">
+
+  <!-- Google Fonts: Cairo (Arabic) & Inter (English) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ALTAYBAT FOR EXPORT",
+    "alternateName": "الطيبات للتصدير",
+    "url": "https://altaybat.export.eg",
+    "logo": "./logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+201065535509",
+      "contactType": "sales",
+      "areaServed": ["EG", "SA", "AE", "QA", "KW", "OM", "BH", "JO", "EU", "Worldwide"],
+      "availableLanguage": ["Arabic", "English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "EG"
+    }
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       ALTAYBAT FOR EXPORT — SCOPED CSS NAMESPACE (#altaybat-web-root)
+       100% WordPress Custom HTML Block Compatible (Zero Global Style Bleed)
+       ========================================================================== */
+
+    #altaybat-web-root {
+      /* Brand Color System */
+      --at-green: #0B5D3B;          /* Pantone 349 C - Deep Nile Emerald */
+      --at-green-dark: #073F29;     /* Deep forest shadow */
+      --at-green-light: #127a4f;    /* Emerald hover */
+      --at-green-subtle: #edf7f2;   /* Soft emerald tint */
+      
+      --at-gold: #C8A23A;           /* Pantone 124 C - Harvest Amber Gold */
+      --at-gold-dark: #a18025;      /* Burnished gold */
+      --at-gold-light: #E9D695;     /* Champagne gold highlight */
+      --at-gold-subtle: #fbf7ec;    /* Soft amber mist */
+
+      --at-ink: #17231E;            /* Pantone Black 6 C - Industrial Charcoal */
+      --at-ink-muted: #53625b;      /* Muted technical gray */
+      
+      --at-white: #FFFFFF;
+      --at-bg-alt: #F8F9F8;
+      --at-border: rgba(11, 93, 59, 0.14);
+      --at-border-gold: rgba(200, 162, 58, 0.28);
+      --at-shadow-sm: 0 4px 12px rgba(11, 93, 59, 0.05);
+      --at-shadow-md: 0 12px 32px rgba(11, 93, 59, 0.08);
+      --at-shadow-lg: 0 24px 60px rgba(11, 93, 59, 0.12);
+
+      --at-radius-sm: 6px;
+      --at-radius-md: 12px;
+      --at-radius-lg: 20px;
+      --at-radius-full: 9999px;
+
+      --at-transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+
+      /* Typography Setup */
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--at-ink);
+      background-color: var(--at-white);
+      line-height: 1.6;
+      font-size: 16px;
+      width: 100%;
+      overflow-x: clip;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    #altaybat-web-root * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Direction & Font Adaptation */
+    #altaybat-web-root[dir="rtl"] {
+      font-family: 'Cairo', 'Amiri', Tahoma, system-ui, sans-serif;
+      text-align: right;
+    }
+
+    #altaybat-web-root[dir="ltr"] {
+      text-align: left;
+    }
+
+    /* Common Helpers & Utilities */
+    #altaybat-web-root .at-container {
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 24px;
+      padding-right: 24px;
+      width: 100%;
+    }
+
+    #altaybat-web-root a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--at-transition);
+    }
+
+    #altaybat-web-root button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+      outline: none;
+      transition: var(--at-transition);
+    }
+
+    #altaybat-web-root img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Buttons */
+    #altaybat-web-root .at-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 26px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border-radius: var(--at-radius-sm);
+      transition: var(--at-transition);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    #altaybat-web-root .at-btn-primary {
+      background: linear-gradient(135deg, var(--at-green) 0%, var(--at-green-dark) 100%);
+      color: var(--at-white);
+      box-shadow: 0 6px 20px rgba(11, 93, 59, 0.28);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    #altaybat-web-root .at-btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(11, 93, 59, 0.4);
+      background: linear-gradient(135deg, var(--at-green-light) 0%, var(--at-green) 100%);
+    }
+
+    #altaybat-web-root .at-btn-gold {
+      background: linear-gradient(135deg, var(--at-gold) 0%, var(--at-gold-dark) 100%);
+      color: var(--at-ink);
+      box-shadow: 0 6px 20px rgba(200, 162, 58, 0.25);
+    }
+    #altaybat-web-root .at-btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(200, 162, 58, 0.38);
+      color: #000;
+    }
+
+    #altaybat-web-root .at-btn-outline {
+      border: 1.5px solid var(--at-green);
+      color: var(--at-green);
+      background: transparent;
+    }
+    #altaybat-web-root .at-btn-outline:hover {
+      background: var(--at-green);
+      color: var(--at-white);
+    }
+
+    #altaybat-web-root .at-btn-whatsapp {
+      background: #25D366;
+      color: #FFFFFF;
+      box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+    }
+    #altaybat-web-root .at-btn-whatsapp:hover {
+      background: #20bd5a;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(37, 211, 102, 0.45);
+    }
+
+    #altaybat-web-root .at-btn-sm {
+      padding: 8px 16px;
+      font-size: 0.85rem;
+    }
+
+    /* Section Headings */
+    #altaybat-web-root .at-section-header {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 52px auto;
+    }
+
+    #altaybat-web-root .at-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: var(--at-radius-full);
+      background: var(--at-green-subtle);
+      color: var(--at-green);
+      border: 1px solid var(--at-border);
+      margin-bottom: 14px;
+    }
+
+    #altaybat-web-root .at-badge-gold {
+      background: var(--at-gold-subtle);
+      color: var(--at-gold-dark);
+      border-color: var(--at-border-gold);
+    }
+
+    #altaybat-web-root .at-section-title {
+      font-size: 2.35rem;
+      font-weight: 900;
+      color: var(--at-ink);
+      line-height: 1.25;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    #altaybat-web-root[dir="rtl"] .at-section-title {
+      letter-spacing: 0;
+    }
+
+    #altaybat-web-root .at-section-desc {
+      font-size: 1.05rem;
+      color: var(--at-ink-muted);
+      line-height: 1.7;
+    }
+
+    /* ==========================================================================
+       1. STICKY TOPBAR & HEADER
+       ========================================================================== */
+    #altaybat-web-root .at-topbar {
+      background: var(--at-green-dark);
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 0.82rem;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    #altaybat-web-root .at-topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    #altaybat-web-root .at-topbar-left,
+    #altaybat-web-root .at-topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    #altaybat-web-root .at-topbar-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+    #altaybat-web-root .at-topbar-item svg {
+      width: 14px;
+      height: 14px;
+      fill: var(--at-gold);
+    }
+
+    /* Main Navbar */
+    #altaybat-web-root .at-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--at-border);
+      transition: box-shadow 0.25s ease;
+    }
+    #altaybat-web-root .at-header.scrolled {
+      box-shadow: 0 10px 30px rgba(11, 93, 59, 0.08);
+    }
+    #altaybat-web-root .at-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 82px;
+    }
+
+    /* Brand Logo */
+    #altaybat-web-root .at-logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    #altaybat-web-root .at-logo-img {
+      height: 52px;
+      width: auto;
+      object-fit: contain;
+    }
+    #altaybat-web-root .at-logo-fallback {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    #altaybat-web-root .at-logo-mark {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, var(--at-green) 0%, var(--at-green-dark) 100%);
+      border-radius: var(--at-radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--at-gold);
+      font-weight: 900;
+      font-size: 1.1rem;
+      border: 1px solid var(--at-gold);
+    }
+    #altaybat-web-root .at-logo-titles {
+      display: flex;
+      flex-direction: column;
+    }
+    #altaybat-web-root .at-logo-ar {
+      font-family: 'Cairo', sans-serif;
+      font-weight: 900;
+      font-size: 1.15rem;
+      color: var(--at-green);
+      line-height: 1.2;
+    }
+    #altaybat-web-root .at-logo-en {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--at-ink);
+    }
+
+    /* Navigation Links */
+    #altaybat-web-root .at-nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    #altaybat-web-root .at-nav-link {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--at-ink);
+      position: relative;
+      padding: 6px 2px;
+    }
+    #altaybat-web-root .at-nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2.5px;
+      background: var(--at-green);
+      border-radius: 2px;
+      transition: width 0.25s ease;
+    }
+    #altaybat-web-root[dir="rtl"] .at-nav-link::after {
+      left: auto;
+      right: 0;
+    }
+    #altaybat-web-root .at-nav-link:hover {
+      color: var(--at-green);
+    }
+    #altaybat-web-root .at-nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* Header Actions */
+    #altaybat-web-root .at-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    /* Language Switcher Pill */
+    #altaybat-web-root .at-lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: var(--at-bg-alt);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-full);
+      padding: 3px;
+      position: relative;
+    }
+    #altaybat-web-root .at-lang-btn {
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      border-radius: var(--at-radius-full);
+      color: var(--at-ink-muted);
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-lang-btn.active {
+      background: var(--at-green);
+      color: var(--at-white);
+      box-shadow: 0 2px 8px rgba(11, 93, 59, 0.25);
+    }
+
+    /* Mobile Hamburger */
+    #altaybat-web-root .at-mobile-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding: 8px;
+      cursor: pointer;
+    }
+    #altaybat-web-root .at-mobile-toggle span {
+      width: 24px;
+      height: 2.5px;
+      background: var(--at-green);
+      border-radius: 2px;
+      transition: var(--at-transition);
+    }
+
+    /* Mobile Drawer */
+    #altaybat-web-root .at-mobile-drawer {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 320px;
+      max-width: 85vw;
+      background: var(--at-white);
+      z-index: 2000;
+      box-shadow: 0 0 60px rgba(0,0,0,0.3);
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      transform: translateX(-105%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #altaybat-web-root[dir="rtl"] .at-mobile-drawer {
+      left: auto;
+      right: 0;
+      transform: translateX(105%);
+    }
+    #altaybat-web-root .at-mobile-drawer.open {
+      transform: translateX(0);
+    }
+    #altaybat-web-root .at-drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(4px);
+      z-index: 1999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    #altaybat-web-root .at-drawer-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    /* ==========================================================================
+       2. HERO SECTION
+       ========================================================================== */
+    #altaybat-web-root .at-hero {
+      position: relative;
+      background: #07271B;
+      color: var(--at-white);
+      padding: 100px 0 90px 0;
+      overflow: hidden;
+    }
+    #altaybat-web-root .at-hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('./images/hero-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.28;
+      filter: saturate(1.2);
+    }
+    #altaybat-web-root .at-hero-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(7, 39, 27, 0.95) 0%, rgba(11, 93, 59, 0.82) 50%, rgba(7, 39, 27, 0.96) 100%);
+    }
+    #altaybat-web-root .at-hero-inner {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+    }
+    #altaybat-web-root .at-hero-content {
+      max-width: 660px;
+    }
+    #altaybat-web-root .at-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(200, 162, 58, 0.15);
+      border: 1px solid var(--at-gold);
+      color: var(--at-gold-light);
+      padding: 6px 16px;
+      border-radius: var(--at-radius-full);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    #altaybat-web-root .at-hero-title {
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.15;
+      color: var(--at-white);
+      margin-bottom: 22px;
+      letter-spacing: -1px;
+    }
+    #altaybat-web-root[dir="rtl"] .at-hero-title {
+      font-family: 'Cairo', sans-serif;
+      letter-spacing: 0;
+      font-size: 3rem;
+      line-height: 1.25;
+    }
+    #altaybat-web-root .at-hero-title span {
+      color: var(--at-gold);
+    }
+    #altaybat-web-root .at-hero-desc {
+      font-size: 1.15rem;
+      color: rgba(255, 255, 255, 0.88);
+      line-height: 1.7;
+      margin-bottom: 34px;
+    }
+    #altaybat-web-root .at-hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 44px;
+    }
+
+    /* Hero Metrics Counters */
+    #altaybat-web-root .at-hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    #altaybat-web-root .at-metric-item {
+      display: flex;
+      flex-direction: column;
+    }
+    #altaybat-web-root .at-metric-val {
+      font-size: 1.95rem;
+      font-weight: 900;
+      color: var(--at-gold);
+      line-height: 1.1;
+    }
+    #altaybat-web-root .at-metric-lbl {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.75);
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    /* Hero Right Visual: Agricultural Showcase Card */
+    #altaybat-web-root .at-hero-showcase {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #altaybat-web-root .at-hero-card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(200, 162, 58, 0.35);
+      border-radius: var(--at-radius-lg);
+      padding: 26px;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+      width: 100%;
+      max-width: 450px;
+    }
+    #altaybat-web-root .at-showcase-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    #altaybat-web-root .at-showcase-tag {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--at-gold);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    #altaybat-web-root .at-showcase-seal {
+      font-size: 0.75rem;
+      font-weight: 800;
+      background: rgba(200, 162, 58, 0.2);
+      color: var(--at-gold-light);
+      padding: 3px 8px;
+      border-radius: var(--at-radius-full);
+      border: 1px solid var(--at-gold);
+    }
+    #altaybat-web-root .at-hero-img-wrap {
+      width: 100%;
+      height: 250px;
+      border-radius: var(--at-radius-md);
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 18px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.3);
+    }
+    #altaybat-web-root .at-hero-img-main {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    #altaybat-web-root .at-hero-card:hover .at-hero-img-main {
+      transform: scale(1.04);
+    }
+    #altaybat-web-root .at-hero-img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 50%, rgba(7, 39, 27, 0.85) 100%);
+      display: flex;
+      align-items: flex-end;
+      padding: 16px;
+    }
+    #altaybat-web-root .at-hero-img-title {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    #altaybat-web-root .at-hero-img-sub {
+      font-size: 0.8rem;
+      color: var(--at-gold-light);
+      font-weight: 700;
+    }
+    #altaybat-web-root .at-showcase-features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    #altaybat-web-root .at-showcase-feat {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--at-radius-sm);
+      padding: 10px 12px;
+      font-size: 0.8rem;
+    }
+    #altaybat-web-root .at-showcase-feat strong {
+      display: block;
+      color: var(--at-gold-light);
+      font-weight: 800;
+      font-size: 0.88rem;
+    }
+
+    /* ==========================================================================
+       3. ABOUT US & 5-STAGE PROCESSING JOURNEY
+       ========================================================================== */
+    #altaybat-web-root .at-section {
+      padding: 96px 0;
+    }
+    #altaybat-web-root .at-section-alt {
+      background: var(--at-bg-alt);
+    }
+
+    #altaybat-web-root .at-about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: center;
+      margin-bottom: 72px;
+    }
+    #altaybat-web-root .at-about-visual {
+      position: relative;
+      border-radius: var(--at-radius-lg);
+      overflow: hidden;
+      box-shadow: var(--at-shadow-lg);
+    }
+    #altaybat-web-root .at-about-img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+    }
+    #altaybat-web-root .at-about-stat-stamp {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      background: linear-gradient(135deg, var(--at-green) 0%, var(--at-green-dark) 100%);
+      color: var(--at-white);
+      padding: 16px 22px;
+      border-radius: var(--at-radius-md);
+      border: 1px solid var(--at-gold);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    #altaybat-web-root[dir="rtl"] .at-about-stat-stamp {
+      right: auto;
+      left: 24px;
+    }
+    #altaybat-web-root .at-about-stat-num {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: var(--at-gold);
+      line-height: 1;
+    }
+    #altaybat-web-root .at-about-stat-txt {
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
+    /* 5-Stage Journey Timeline */
+    #altaybat-web-root .at-timeline-title {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--at-green);
+      margin-bottom: 36px;
+    }
+    #altaybat-web-root .at-timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+    #altaybat-web-root .at-timeline-card {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-md);
+      padding: 22px 18px;
+      box-shadow: var(--at-shadow-sm);
+      transition: var(--at-transition);
+      position: relative;
+    }
+    #altaybat-web-root .at-timeline-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--at-shadow-md);
+      border-color: var(--at-gold);
+    }
+    #altaybat-web-root .at-step-num {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--at-green);
+      color: var(--at-gold);
+      font-weight: 900;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+    #altaybat-web-root .at-step-img-thumb {
+      width: 100%;
+      height: 100px;
+      border-radius: var(--at-radius-sm);
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+    #altaybat-web-root .at-step-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--at-ink);
+      margin-bottom: 6px;
+    }
+    #altaybat-web-root .at-step-desc {
+      font-size: 0.8rem;
+      color: var(--at-ink-muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       4. INTERACTIVE PRODUCT CATALOG
+       ========================================================================== */
+    #altaybat-web-root .at-catalog-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    #altaybat-web-root .at-tab-btn {
+      padding: 10px 22px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      border-radius: var(--at-radius-full);
+      background: var(--at-white);
+      color: var(--at-ink);
+      border: 1px solid var(--at-border);
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-tab-btn.active,
+    #altaybat-web-root .at-tab-btn:hover {
+      background: var(--at-green);
+      color: var(--at-white);
+      border-color: var(--at-green);
+      box-shadow: 0 4px 14px rgba(11, 93, 59, 0.25);
+    }
+
+    #altaybat-web-root .at-products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    #altaybat-web-root .at-product-card {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-lg);
+      overflow: hidden;
+      box-shadow: var(--at-shadow-sm);
+      transition: var(--at-transition);
+      display: flex;
+      flex-direction: column;
+    }
+    #altaybat-web-root .at-product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--at-shadow-lg);
+      border-color: var(--at-gold);
+    }
+    #altaybat-web-root .at-prod-thumb-wrap {
+      height: 220px;
+      position: relative;
+      overflow: hidden;
+      background: #f0f4f1;
+    }
+    #altaybat-web-root .at-prod-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    #altaybat-web-root .at-product-card:hover .at-prod-thumb {
+      transform: scale(1.06);
+    }
+    #altaybat-web-root .at-prod-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: var(--at-green);
+      color: var(--at-white);
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: var(--at-radius-full);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    #altaybat-web-root[dir="rtl"] .at-prod-tag {
+      left: auto;
+      right: 14px;
+    }
+    #altaybat-web-root .at-prod-purity {
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: var(--at-gold);
+      color: var(--at-ink);
+      font-size: 0.75rem;
+      font-weight: 900;
+      padding: 4px 10px;
+      border-radius: var(--at-radius-sm);
+    }
+    #altaybat-web-root[dir="rtl"] .at-prod-purity {
+      right: auto;
+      left: 14px;
+    }
+    #altaybat-web-root .at-prod-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    #altaybat-web-root .at-prod-title {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: var(--at-ink);
+      margin-bottom: 4px;
+    }
+    #altaybat-web-root .at-prod-subtitle {
+      font-size: 0.85rem;
+      color: var(--at-green);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    #altaybat-web-root .at-prod-specs-list {
+      list-style: none;
+      margin-bottom: 20px;
+      font-size: 0.84rem;
+    }
+    #altaybat-web-root .at-prod-specs-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px dashed rgba(11, 93, 59, 0.12);
+    }
+    #altaybat-web-root .at-prod-specs-list li span:first-child {
+      color: var(--at-ink-muted);
+    }
+    #altaybat-web-root .at-prod-specs-list li span:last-child {
+      font-weight: 700;
+      color: var(--at-ink);
+    }
+    #altaybat-web-root .at-prod-footer {
+      margin-top: auto;
+      display: flex;
+      gap: 10px;
+    }
+
+    /* ==========================================================================
+       5. QUALITY CONTROL & INSPECTION MATRIX
+       ========================================================================== */
+    #altaybat-web-root .at-quality-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+      margin-bottom: 48px;
+    }
+    #altaybat-web-root .at-qc-card {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-md);
+      padding: 24px 20px;
+      box-shadow: var(--at-shadow-sm);
+      text-align: center;
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-qc-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--at-shadow-md);
+      border-color: var(--at-green);
+    }
+    #altaybat-web-root .at-qc-icon-wrap {
+      width: 54px;
+      height: 54px;
+      margin: 0 auto 16px auto;
+      border-radius: 50%;
+      background: var(--at-green-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--at-green);
+    }
+    #altaybat-web-root .at-qc-card h4 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--at-ink);
+    }
+    #altaybat-web-root .at-qc-card p {
+      font-size: 0.82rem;
+      color: var(--at-ink-muted);
+      line-height: 1.5;
+    }
+
+    /* QC Inspection Matrix Table */
+    #altaybat-web-root .at-table-container {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-lg);
+      overflow-x: auto;
+      box-shadow: var(--at-shadow-md);
+    }
+    #altaybat-web-root .at-qc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+    #altaybat-web-root[dir="rtl"] .at-qc-table {
+      text-align: right;
+    }
+    #altaybat-web-root .at-qc-table th {
+      background: var(--at-green-dark);
+      color: var(--at-white);
+      padding: 16px 20px;
+      font-weight: 800;
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    #altaybat-web-root .at-qc-table td {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--at-border);
+      color: var(--at-ink);
+    }
+    #altaybat-web-root .at-qc-table tr:hover td {
+      background: var(--at-green-subtle);
+    }
+    #altaybat-web-root .at-pill-pass {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: var(--at-radius-full);
+      font-size: 0.75rem;
+      font-weight: 800;
+      background: #e6f7ec;
+      color: #0d8343;
+    }
+
+    /* ==========================================================================
+       6. GLOBAL EXPORT MARKETS & CONTAINER CALCULATOR
+       ========================================================================== */
+    #altaybat-web-root .at-logistics-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    #altaybat-web-root .at-ports-card {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-lg);
+      padding: 32px;
+      box-shadow: var(--at-shadow-md);
+    }
+    #altaybat-web-root .at-ports-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 20px;
+    }
+    #altaybat-web-root .at-port-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      border-radius: var(--at-radius-sm);
+      background: var(--at-bg-alt);
+      border: 1px solid var(--at-border);
+    }
+    #altaybat-web-root .at-port-icon {
+      color: var(--at-green);
+      font-size: 1.2rem;
+    }
+
+    /* Container Loading Calculator */
+    #altaybat-web-root .at-calc-card {
+      background: linear-gradient(135deg, #07271B 0%, #0B5D3B 100%);
+      color: var(--at-white);
+      border-radius: var(--at-radius-lg);
+      padding: 32px;
+      box-shadow: var(--at-shadow-lg);
+      border: 1px solid var(--at-gold);
+    }
+    #altaybat-web-root .at-calc-card h3 {
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: var(--at-gold);
+      margin-bottom: 8px;
+    }
+    #altaybat-web-root .at-calc-fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    #altaybat-web-root .at-calc-field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--at-gold-light);
+      margin-bottom: 6px;
+    }
+    #altaybat-web-root .at-calc-select {
+      width: 100%;
+      padding: 10px 14px;
+      border-radius: var(--at-radius-sm);
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.12);
+      color: var(--at-white);
+      font-family: inherit;
+      font-size: 0.85rem;
+      outline: none;
+    }
+    #altaybat-web-root .at-calc-select option {
+      background: var(--at-ink);
+      color: var(--at-white);
+    }
+    #altaybat-web-root .at-calc-output {
+      background: rgba(0,0,0,0.28);
+      border-radius: var(--at-radius-md);
+      padding: 18px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      text-align: center;
+    }
+    #altaybat-web-root .at-calc-out-num {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--at-gold);
+    }
+    #altaybat-web-root .at-calc-out-lbl {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.8);
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       7. DOCUMENT DOWNLOAD CENTER
+       ========================================================================== */
+    #altaybat-web-root .at-docs-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    #altaybat-web-root .at-doc-card {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-md);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--at-shadow-sm);
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-doc-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--at-shadow-md);
+      border-color: var(--at-green);
+    }
+    #altaybat-web-root .at-doc-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--at-radius-sm);
+      background: var(--at-gold-subtle);
+      color: var(--at-gold-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+    #altaybat-web-root .at-doc-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--at-ink);
+      margin-bottom: 6px;
+    }
+    #altaybat-web-root .at-doc-meta {
+      font-size: 0.78rem;
+      color: var(--at-ink-muted);
+      margin-bottom: 20px;
+    }
+    #altaybat-web-root .at-doc-card .at-btn {
+      margin-top: auto;
+      width: 100%;
+    }
+
+    /* ==========================================================================
+       8. INSTANT QUOTATION & WHATSAPP RFQ GENERATOR
+       ========================================================================== */
+    #altaybat-web-root .at-rfq-wrapper {
+      background: var(--at-white);
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-lg);
+      padding: 44px;
+      box-shadow: var(--at-shadow-lg);
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+    }
+    #altaybat-web-root .at-form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+    #altaybat-web-root .at-form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    #altaybat-web-root .at-form-group.full {
+      grid-column: span 2;
+    }
+    #altaybat-web-root .at-form-group label {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--at-ink);
+    }
+    #altaybat-web-root .at-input,
+    #altaybat-web-root .at-select,
+    #altaybat-web-root .at-textarea {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-sm);
+      font-family: inherit;
+      font-size: 0.9rem;
+      background: var(--at-bg-alt);
+      color: var(--at-ink);
+      outline: none;
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-input:focus,
+    #altaybat-web-root .at-select:focus,
+    #altaybat-web-root .at-textarea:focus {
+      border-color: var(--at-green);
+      background: var(--at-white);
+      box-shadow: 0 0 0 3px rgba(11, 93, 59, 0.12);
+    }
+
+    /* RFQ Live Preview Sidebar */
+    #altaybat-web-root .at-rfq-preview-card {
+      background: #FAFBF9;
+      border: 1px solid var(--at-border);
+      border-radius: var(--at-radius-md);
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    #altaybat-web-root .at-rfq-preview-header {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--at-green);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(11, 93, 59, 0.15);
+    }
+    #altaybat-web-root .at-rfq-summary-box {
+      background: var(--at-white);
+      border: 1.5px solid var(--at-border);
+      border-radius: var(--at-radius-sm);
+      padding: 16px;
+      font-size: 0.86rem;
+      color: var(--at-ink);
+      line-height: 1.6;
+      flex-grow: 1;
+      margin-bottom: 20px;
+      white-space: pre-wrap;
+      font-family: inherit;
+      resize: vertical;
+      min-height: 290px;
+      width: 100%;
+      outline: none;
+      transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-rfq-summary-box:focus {
+      border-color: var(--at-green);
+      box-shadow: 0 0 0 3px rgba(11, 93, 59, 0.12);
+      background: #FAFCF9;
+    }
+    #altaybat-web-root[dir="rtl"] .at-rfq-summary-box {
+      font-family: inherit;
+      text-align: right;
+    }
+    #altaybat-web-root .at-rfq-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* ==========================================================================
+       9. CLIENT-SIDE DEMO CUSTOMER PORTAL
+       ========================================================================== */
+    #altaybat-web-root .at-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      backdrop-filter: blur(6px);
+      z-index: 3000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    #altaybat-web-root .at-modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #altaybat-web-root .at-modal-content {
+      background: var(--at-white);
+      border-radius: var(--at-radius-lg);
+      max-width: 600px;
+      width: 100%;
+      padding: 36px;
+      position: relative;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+      max-height: 90vh;
+      overflow-y: auto;
+      transform: translateY(20px);
+      transition: transform 0.3s ease;
+    }
+    #altaybat-web-root .at-modal-backdrop.open .at-modal-content {
+      transform: translateY(0);
+    }
+    #altaybat-web-root .at-modal-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--at-ink-muted);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--at-bg-alt);
+    }
+    #altaybat-web-root[dir="rtl"] .at-modal-close {
+      right: auto;
+      left: 20px;
+    }
+
+    /* Tracking Status Timeline */
+    #altaybat-web-root .at-track-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin: 20px 0;
+      position: relative;
+      padding-left: 28px;
+    }
+    #altaybat-web-root[dir="rtl"] .at-track-steps {
+      padding-left: 0;
+      padding-right: 28px;
+    }
+    #altaybat-web-root .at-track-step {
+      position: relative;
+    }
+    #altaybat-web-root .at-track-step::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 4px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--at-green);
+      border: 3px solid var(--at-gold-light);
+    }
+    #altaybat-web-root[dir="rtl"] .at-track-step::before {
+      left: auto;
+      right: -28px;
+    }
+    #altaybat-web-root .at-track-step h5 {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--at-ink);
+    }
+    #altaybat-web-root .at-track-step p {
+      font-size: 0.8rem;
+      color: var(--at-ink-muted);
+    }
+
+    /* ==========================================================================
+       10. FOOTER
+       ========================================================================== */
+    #altaybat-web-root .at-footer {
+      background: #061F15;
+      color: rgba(255, 255, 255, 0.8);
+      padding: 72px 0 32px 0;
+      border-top: 3px solid var(--at-gold);
+    }
+    #altaybat-web-root .at-footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 40px;
+      margin-bottom: 56px;
+    }
+    #altaybat-web-root .at-footer-col h4 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--at-gold);
+      margin-bottom: 20px;
+    }
+    #altaybat-web-root .at-footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 0.88rem;
+    }
+    #altaybat-web-root .at-footer-links a:hover {
+      color: var(--at-gold-light);
+      padding-left: 4px;
+    }
+    #altaybat-web-root[dir="rtl"] .at-footer-links a:hover {
+      padding-left: 0;
+      padding-right: 4px;
+    }
+    #altaybat-web-root .at-footer-bottom {
+      padding-top: 28px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 0.82rem;
+    }
+
+    /* Toast Notifications */
+    #altaybat-web-root .at-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--at-green-dark);
+      color: var(--at-white);
+      border: 1px solid var(--at-gold);
+      padding: 14px 22px;
+      border-radius: var(--at-radius-sm);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      font-size: 0.88rem;
+      font-weight: 700;
+      z-index: 4000;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: var(--at-transition);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    #altaybat-web-root[dir="rtl"] .at-toast {
+      right: auto;
+      left: 24px;
+    }
+    #altaybat-web-root .at-toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* ==========================================================================
+       RESPONSIVENESS & BREAKPOINTS
+       ========================================================================== */
+    @media (max-width: 1024px) {
+      #altaybat-web-root .at-nav {
+        display: none;
+      }
+      #altaybat-web-root .at-mobile-toggle {
+        display: flex;
+      }
+      #altaybat-web-root .at-hero-inner {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-hero-showcase {
+        order: -1;
+      }
+      #altaybat-web-root .at-about-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-timeline-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #altaybat-web-root .at-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #altaybat-web-root .at-quality-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #altaybat-web-root .at-logistics-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-docs-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #altaybat-web-root .at-rfq-wrapper {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      #altaybat-web-root .at-topbar {
+        display: none;
+      }
+      #altaybat-web-root .at-hero {
+        padding: 60px 0 50px 0;
+      }
+      #altaybat-web-root .at-hero-title {
+        font-size: 2.1rem;
+      }
+      #altaybat-web-root[dir="rtl"] .at-hero-title {
+        font-size: 2rem;
+      }
+      #altaybat-web-root .at-hero-metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #altaybat-web-root .at-timeline-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-products-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-quality-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-docs-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-footer-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-form-grid {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-form-group.full {
+        grid-column: span 1;
+      }
+      #altaybat-web-root .at-calc-fields {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-calc-output {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-section-title {
+        font-size: 1.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Master Container with Scoped ID for WordPress Compatibility -->
+<div id="altaybat-web-root" class="at-root" lang="en" dir="ltr">
+
+  <!-- Mobile Drawer Backdrop -->
+  <div class="at-drawer-backdrop" id="atDrawerBackdrop"></div>
+
+  <!-- Mobile Navigation Drawer -->
+  <aside class="at-mobile-drawer" id="atMobileDrawer" aria-label="Mobile Menu">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div class="at-logo-wrap">
+        <div class="at-logo-mark">AT</div>
+        <div class="at-logo-titles">
+          <span class="at-logo-ar">الطيبات للتصدير</span>
+          <span class="at-logo-en">ALTAYBAT FOR EXPORT</span>
+        </div>
+      </div>
+      <button class="at-modal-close" id="atDrawerClose" aria-label="Close Menu">&times;</button>
+    </div>
+
+    <div class="at-lang-switch" style="width: fit-content; margin: 10px 0;">
+      <button class="at-lang-btn active" data-lang="en">EN</button>
+      <button class="at-lang-btn" data-lang="ar">العربية</button>
+    </div>
+
+    <nav style="display: flex; flex-direction: column; gap: 14px; margin-top: 10px;">
+      <a href="#about" class="at-nav-link at-mobile-link" data-i18n="navAbout">About Us</a>
+      <a href="#products" class="at-nav-link at-mobile-link" data-i18n="navProducts">Export Portfolio</a>
+      <a href="#quality" class="at-nav-link at-mobile-link" data-i18n="navQuality">Quality & Sortex</a>
+      <a href="#logistics" class="at-nav-link at-mobile-link" data-i18n="navLogistics">Export Markets</a>
+      <a href="#documents" class="at-nav-link at-mobile-link" data-i18n="navDocs">Document Center</a>
+      <a href="#rfq" class="at-nav-link at-mobile-link" data-i18n="navRFQ">Instant RFQ</a>
+    </nav>
+
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px;">
+      <button class="at-btn at-btn-outline at-btn-sm" id="atPortalOpenBtnMobile" data-i18n="portalBtn">
+        <span>🔒</span> Client Portal
+      </button>
+      <a href="https://wa.me/201065535509" target="_blank" rel="noopener noreferrer" class="at-btn at-btn-whatsapp at-btn-sm">
+        <span>💬</span> WhatsApp Direct
+      </a>
+    </div>
+  </aside>
+
+  <!-- 1. Top Bar -->
+  <div class="at-topbar">
+    <div class="at-container at-topbar-inner">
+      <div class="at-topbar-left">
+        <span class="at-topbar-item">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span data-i18n="topbarLocation">Alexandria & Nile Delta, Arab Republic of Egypt</span>
+        </span>
+        <span class="at-topbar-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <a href="mailto:altaybat.export@gmail.com">altaybat.export@gmail.com</a>
+        </span>
+      </div>
+      <div class="at-topbar-right">
+        <span class="at-topbar-item">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          <span data-i18n="topbarHours">Trading Hours: 08:00 - 18:00 (Cairo GMT+2)</span>
+        </span>
+        <span class="at-topbar-item" style="color: var(--at-gold-light); font-weight: 700;">
+          ★ ISO 22000 & HACCP Compliant
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Sticky Header Navbar -->
+  <header class="at-header" id="atHeader">
+    <div class="at-container at-header-inner">
+      <!-- Brand Logo -->
+      <a href="#altaybat-web-root" class="at-logo-wrap" aria-label="Al Taybat Export Home">
+        <img 
+          src="./logo.png" 
+          alt="ALTAYBAT FOR EXPORT" 
+          class="at-logo-img" 
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="at-logo-fallback" style="display: none;">
+          <div class="at-logo-mark">AT</div>
+          <div class="at-logo-titles">
+            <span class="at-logo-ar">الطيبات للتصدير</span>
+            <span class="at-logo-en">ALTAYBAT FOR EXPORT</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="at-nav" aria-label="Primary Navigation">
+        <a href="#about" class="at-nav-link" data-i18n="navAbout">About Us</a>
+        <a href="#products" class="at-nav-link" data-i18n="navProducts">Export Portfolio</a>
+        <a href="#quality" class="at-nav-link" data-i18n="navQuality">Quality & Sortex</a>
+        <a href="#logistics" class="at-nav-link" data-i18n="navLogistics">Export Markets</a>
+        <a href="#documents" class="at-nav-link" data-i18n="navDocs">Document Center</a>
+        <a href="#rfq" class="at-nav-link" data-i18n="navRFQ">Instant RFQ</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="at-header-actions">
+        <!-- Multilingual Switcher -->
+        <div class="at-lang-switch" role="group" aria-label="Language Switcher">
+          <button class="at-lang-btn active" data-lang="en">EN</button>
+          <button class="at-lang-btn" data-lang="ar">العربية</button>
+        </div>
+
+        <!-- Portal Demo Trigger -->
+        <button class="at-btn at-btn-outline at-btn-sm" id="atPortalOpenBtn" style="display: none; @media(min-width: 1024px){display:inline-flex;}">
+          <span>🔒</span> <span data-i18n="portalBtn">Client Portal</span>
+        </button>
+
+        <!-- Direct WhatsApp CTA -->
+        <a 
+          href="https://wa.me/201065535509?text=Hello%20ALTAYBAT%20FOR%20EXPORT%2C%20I%20am%20interested%20in%20requesting%20a%20quotation." 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="at-btn at-btn-whatsapp at-btn-sm"
+          aria-label="Contact WhatsApp Sales"
+        >
+          <span>💬</span> <span data-i18n="headerWhatsApp">WhatsApp RFQ</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="at-mobile-toggle" id="atMobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section class="at-hero" id="home">
+    <div class="at-hero-bg"></div>
+    <div class="at-hero-scrim"></div>
+    <div class="at-container at-hero-inner">
+      
+      <!-- Hero Copy -->
+      <div class="at-hero-content">
+        <div class="at-hero-badge">
+          <span>🌾</span> <span data-i18n="heroBadge">Export Quality - Egyptian Origin</span>
+        </div>
+        
+        <h1 class="at-hero-title">
+          <span data-i18n="heroTitlePart1">Premium Egyptian Crops</span><br>
+          <span data-i18n="heroTitlePart2">Engineered for Global B2B Excellence</span>
+        </h1>
+        
+        <p class="at-hero-desc" data-i18n="heroDesc">
+          ALTAYBAT FOR EXPORT is an established Egyptian commodity producer and exporter specializing in machine-cleaned, optical Sortex 99.5% White Beans, Kabuli Chickpeas, Lentils, Fresh Citrus, and Pure Essential Oils. Delivered in certified export packaging, bulk containers, and premium retail formats built for transoceanic shipping.
+        </p>
+
+        <div class="at-hero-actions">
+          <a href="#rfq" class="at-btn at-btn-gold">
+            <span data-i18n="heroBtnQuote">Request Instant Quotation</span> <span>➔</span>
+          </a>
+          <a href="#products" class="at-btn at-btn-outline" style="border-color: rgba(255,255,255,0.4); color: #fff;">
+            <span>📦</span> <span data-i18n="heroBtnProducts">Explore Export Crops</span>
+          </a>
+          <a href="./Altaybat_Export_Profile_English.pdf" download class="at-btn at-btn-sm" style="background: rgba(255,255,255,0.1); color: var(--at-gold-light); border: 1px solid rgba(200,162,58,0.4);">
+            <span>📥</span> <span data-i18n="heroBtnProfile">Company Profile PDF</span>
+          </a>
+        </div>
+
+        <!-- Metric Counter Cards -->
+        <div class="at-hero-metrics">
+          <div class="at-metric-item">
+            <span class="at-metric-val">99.5%</span>
+            <span class="at-metric-lbl" data-i18n="metricSortex">Sortex Optical Purity</span>
+          </div>
+          <div class="at-metric-item">
+            <span class="at-metric-val">30+</span>
+            <span class="at-metric-lbl" data-i18n="metricCountries">Destination Markets</span>
+          </div>
+          <div class="at-metric-item">
+            <span class="at-metric-val">FOB/CIF</span>
+            <span class="at-metric-lbl" data-i18n="metricTerms">Flexible Trade Terms</span>
+          </div>
+          <div class="at-metric-item">
+            <span class="at-metric-val">25/50 KG</span>
+            <span class="at-metric-lbl" data-i18n="metricBags">Export Packaging & Jumbo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual: Commodity Showcase Card -->
+      <div class="at-hero-showcase">
+        <div class="at-hero-card">
+          <div class="at-showcase-header">
+            <span class="at-showcase-tag" data-i18n="heroShowcaseTag">★ PREMIUM COMMODITIES</span>
+            <span class="at-showcase-seal">CROP 2026</span>
+          </div>
+
+          <div class="at-hero-img-wrap">
+            <img 
+              src="./images/white-beans.jpg" 
+              alt="Egyptian Export Commodities" 
+              class="at-hero-img-main"
+              onerror="this.src='./images/farm.jpg';"
+            />
+            <div class="at-hero-img-overlay">
+              <div>
+                <div class="at-hero-img-title" data-i18n="heroImgTitle">White Kidney Beans & Pulses</div>
+                <div class="at-hero-img-sub">Sortex 99.5% Machine Cleaned • Egyptian Origin</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="at-showcase-features">
+            <div class="at-showcase-feat">
+              <strong data-i18n="featSortex">Optical Sortex</strong>
+              <span>Dual-camera 99.5% purity</span>
+            </div>
+            <div class="at-showcase-feat">
+              <strong data-i18n="featPorts">Sea Gateways</strong>
+              <span>Alexandria & Damietta</span>
+            </div>
+            <div class="at-showcase-feat">
+              <strong data-i18n="featLab">Phytosanitary</strong>
+              <span>Ministry of Agriculture</span>
+            </div>
+            <div class="at-showcase-feat">
+              <strong data-i18n="featPackaging">Export Packaging</strong>
+              <span>25/50kg & Jumbo Bags</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. ABOUT US & 5-STAGE PROCESSING JOURNEY -->
+  <section class="at-section" id="about">
+    <div class="at-container">
+      
+      <div class="at-about-grid">
+        <!-- Visual Column -->
+        <div class="at-about-visual">
+          <img 
+            src="./images/farm.jpg" 
+            alt="Egyptian Agricultural Heritage" 
+            class="at-about-img"
+            onerror="this.src='./images/packing.jpg';"
+          />
+          <div class="at-about-stat-stamp">
+            <div class="at-about-stat-num">100%</div>
+            <div class="at-about-stat-txt" data-i18n="aboutStamp">Egyptian Heritage</div>
+          </div>
+        </div>
+
+        <!-- Copy Column -->
+        <div>
+          <div class="at-badge">
+            <span>🌱</span> <span data-i18n="aboutBadge">Nile Delta Agricultural Heritage</span>
+          </div>
+          <h2 class="at-section-title" data-i18n="aboutTitle">
+            Rooted in Egyptian Soil, Engineered for Global Trust
+          </h2>
+          <p class="at-section-desc" style="margin-bottom: 20px;" data-i18n="aboutP1">
+            ALTAYBAT FOR EXPORT (الطيبات للتصدير) is an established Egyptian agricultural commodity enterprise situated in the heart of Egypt's richest alluvial farmland across the Nile Delta and Upper Egypt. For decades, our agrarian partnerships with select farming estates have guaranteed high-germination, pesticide-controlled crops meeting rigid European and GCC food security regulations.
+          </p>
+          <p class="at-section-desc" style="margin-bottom: 28px;" data-i18n="aboutP2">
+            Our state-of-the-art sorting, grading, and packaging infrastructure utilizes multi-spectral optical Sortex machinery to isolate foreign materials, discolored seeds, and splits with 99.5% accuracy. Every shipment and container packed carries the seal of authentic Egyptian agricultural mastery.
+          </p>
+          
+          <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <a href="#products" class="at-btn at-btn-primary">
+              <span data-i18n="aboutBtnCrops">Explore Crop Portfolio</span> ➔
+            </a>
+            <a href="./Altaybat_Export_Profile_Arabic.pdf" download class="at-btn at-btn-outline">
+              <span>📄</span> <span data-i18n="aboutBtnArabicProfile">الملف التعريفي (عربي)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5-Stage Processing Timeline -->
+      <div style="margin-top: 50px;">
+        <h3 class="at-timeline-title" data-i18n="timelineHeader">
+          Our Seed-to-Container Quality Journey
+        </h3>
+
+        <div class="at-timeline-grid">
+          <!-- Step 1 -->
+          <div class="at-timeline-card">
+            <div class="at-step-num">1</div>
+            <img src="./images/farm.jpg" alt="Farm monitoring" class="at-step-img-thumb" onerror="this.style.display='none';">
+            <h4 class="at-step-title" data-i18n="step1Title">Agronomic Selection</h4>
+            <p class="at-step-desc" data-i18n="step1Desc">Direct farm contracts, regulated seed genetics, soil mineral testing, and zero-residue irrigation monitoring.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="at-timeline-card">
+            <div class="at-step-num">2</div>
+            <img src="./images/white-beans.jpg" alt="Sortex sorting" class="at-step-img-thumb" onerror="this.style.display='none';">
+            <h4 class="at-step-title" data-i18n="step2Title">Optical Sortex Grading</h4>
+            <p class="at-step-desc" data-i18n="step2Desc">Mechanical de-stoning, aspiration, vibration screens, and dual-camera optical Sortex color sorting up to 99.5% purity.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="at-timeline-card">
+            <div class="at-step-num">3</div>
+            <img src="./images/chickpeas.jpg" alt="Laboratory testing" class="at-step-img-thumb" onerror="this.style.display='none';">
+            <h4 class="at-step-title" data-i18n="step3Title">Laboratory Assay</h4>
+            <p class="at-step-desc" data-i18n="step3Desc">Stringent testing for moisture content (≤14%), aflatoxins, pesticide residue limits, and caliber distribution verification.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="at-timeline-card">
+            <div class="at-step-num">4</div>
+            <img src="./images/packing.jpg" alt="Automatic packing" class="at-step-img-thumb" onerror="this.style.display='none';">
+            <h4 class="at-step-title" data-i18n="step4Title">Export Bagging & Packing</h4>
+            <p class="at-step-desc" data-i18n="step4Desc">Automated electronic weighing into 25kg & 50kg standard export bags and 1000kg bulk jumbo bags with reinforced double stitching.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="at-timeline-card">
+            <div class="at-step-num">5</div>
+            <img src="./images/shipping.jpg" alt="Container dispatch" class="at-step-img-thumb" onerror="this.style.display='none';">
+            <h4 class="at-step-title" data-i18n="step5Title">Fumigation & Port Dispatch</h4>
+            <p class="at-step-desc" data-i18n="step5Desc">Container palletization, kraft paper lining, certified aluminum phosphide fumigation, and direct ocean dispatch from Alexandria or Damietta.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. INTERACTIVE PRODUCT CATALOG -->
+  <section class="at-section at-section-alt" id="products">
+    <div class="at-container">
+      
+      <div class="at-section-header">
+        <div class="at-badge">
+          <span>📦</span> <span data-i18n="catalogBadge">Export Crop Portfolio</span>
+        </div>
+        <h2 class="at-section-title" data-i18n="catalogTitle">
+          Certified Egyptian Agricultural Commodities
+        </h2>
+        <p class="at-section-desc" data-i18n="catalogDesc">
+          Strictly graded according to UNECE and Codex Alimentarius standards. Ready for containerized bulk shipment to global distributors, food processors, and supermarket packagers.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="at-catalog-tabs">
+        <button class="at-tab-btn active" data-filter="all" data-i18n="tabAll">All Commodities</button>
+        <button class="at-tab-btn" data-filter="pulses" data-i18n="tabPulses">Pulses & Grains</button>
+        <button class="at-tab-btn" data-filter="fruits" data-i18n="tabFruits">Fresh Citrus & Fruits</button>
+        <button class="at-tab-btn" data-filter="oils" data-i18n="tabOils">Essential Oils & Absolutes</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="at-products-grid" id="atProductsGrid">
+        
+        <!-- 1. White Kidney Beans -->
+        <div class="at-product-card" data-category="pulses" data-product-id="white-beans">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/white-beans.jpg" alt="White Kidney Beans" class="at-prod-thumb" onerror="this.src='./images/farm.jpg';">
+            <span class="at-prod-tag" data-i18n="catPulses">Pulses & Grains</span>
+            <span class="at-prod-purity">Sortex 99.5%</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodBeansTitle">White Kidney Beans</h3>
+            <span class="at-prod-subtitle" data-i18n="prodBeansSub">فاصوليا بيضاء مصرية فاخرة</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specCaliber">Export Calibers:</span> <span>180-200, 200-220, 220-240 pcs/100g</span></li>
+              <li><span data-i18n="specPurity">Optical Purity:</span> <span>99.0% - 99.5% Min</span></li>
+              <li><span data-i18n="specMoisture">Moisture Content:</span> <span>14.0% Max</span></li>
+              <li><span data-i18n="specBroken">Broken / Split:</span> <span>1.0% Max</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25 KG & 50 KG Export Bags / Jumbo</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="White Kidney Beans" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="white-beans" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Kabuli Chickpeas -->
+        <div class="at-product-card" data-category="pulses" data-product-id="chickpeas">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/chickpeas.jpg" alt="Kabuli Chickpeas" class="at-prod-thumb" onerror="this.src='./images/farm.jpg';">
+            <span class="at-prod-tag" data-i18n="catPulses">Pulses & Grains</span>
+            <span class="at-prod-purity">Sortex 99.5%</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodChickpeasTitle">Kabuli Chickpeas</h3>
+            <span class="at-prod-subtitle" data-i18n="prodChickpeasSub">حمص مصري كابولي</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specCaliber">Selected Calibers:</span> <span>7mm, 8mm, 9mm, 10mm</span></li>
+              <li><span data-i18n="specPurity">Optical Purity:</span> <span>99.2% Min</span></li>
+              <li><span data-i18n="specMoisture">Moisture Content:</span> <span>12.5% Max</span></li>
+              <li><span data-i18n="specForeign">Foreign Matter:</span> <span>0.2% Max</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25 KG & 50 KG Export Bags / Jumbo</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Kabuli Chickpeas" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="chickpeas" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Egyptian Lentils -->
+        <div class="at-product-card" data-category="pulses" data-product-id="lentils">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/lentils.jpg" alt="Egyptian Lentils" class="at-prod-thumb" onerror="this.src='./images/farm.jpg';">
+            <span class="at-prod-tag" data-i18n="catPulses">Pulses & Grains</span>
+            <span class="at-prod-purity">Sortex 99.5%</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodLentilsTitle">Whole & Split Lentils</h3>
+            <span class="at-prod-subtitle" data-i18n="prodLentilsSub">عدس مصري بني وأحمر مجروش</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specType">Varieties:</span> <span>Brown Whole, Red Football, Split Red</span></li>
+              <li><span data-i18n="specPurity">Optical Purity:</span> <span>99.5% Min</span></li>
+              <li><span data-i18n="specMoisture">Moisture Content:</span> <span>13.0% Max</span></li>
+              <li><span data-i18n="specBroken">Discolored Grains:</span> <span>0.5% Max</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25 KG Export Bags</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Egyptian Lentils" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="lentils" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Green Peas & Split Peas -->
+        <div class="at-product-card" data-category="pulses" data-product-id="peas">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/peas.jpg" alt="Green Peas" class="at-prod-thumb" onerror="this.src='./images/farm.jpg';">
+            <span class="at-prod-tag" data-i18n="catPulses">Pulses & Grains</span>
+            <span class="at-prod-purity">Sortex 99.0%</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodPeasTitle">Green Peas & Split Peas</h3>
+            <span class="at-prod-subtitle" data-i18n="prodPeasSub">بازلاء خضراء مجففة ومفروزة</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specType">Form:</span> <span>Whole Dried & Split Green Peas</span></li>
+              <li><span data-i18n="specPurity">Optical Purity:</span> <span>99.0% Min</span></li>
+              <li><span data-i18n="specMoisture">Moisture Content:</span> <span>13.5% Max</span></li>
+              <li><span data-i18n="specBroken">Broken Grains:</span> <span>1.5% Max</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25 KG & 50 KG Bags</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Green Peas" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="peas" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Fresh Fruits & Citrus -->
+        <div class="at-product-card" data-category="fruits" data-product-id="fruits">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/fresh-fruits.jpg" alt="Fresh Fruits & Citrus" class="at-prod-thumb" onerror="this.src='./images/farm.jpg';">
+            <span class="at-prod-tag" data-i18n="catFruits">Fresh Citrus & Fruits</span>
+            <span class="at-prod-purity">Class 1 Export</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodFruitsTitle">Fresh Egyptian Citrus & Fruits</h3>
+            <span class="at-prod-subtitle" data-i18n="prodFruitsSub">برتقال فالنسيا، رمان وندرفل، عنب</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specVar">Key Varieties:</span> <span>Valencia Oranges, Murcott, Wonderful Pomegranates</span></li>
+              <li><span data-i18n="specBrix">Brix Level:</span> <span>11° - 13° Min</span></li>
+              <li><span data-i18n="specCalibration">Counts/Carton:</span> <span>48, 56, 64, 72, 80, 88, 100</span></li>
+              <li><span data-i18n="specCert">Phytosanitary:</span> <span>GlobalGAP & Pest Free Certificate</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>15 KG Telescopic Cartons / Open Top</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Fresh Egyptian Citrus" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="fruits" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+                <!-- Essential Oil: Egyptian Violet Leaves Absolute -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-violet-leaves">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Violet Leaves Absolute Oil.png" alt="Egyptian Violet Leaves Absolute" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Perfumery Grade</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodVioletTitle">Egyptian Violet Leaves Absolute</h3>
+            <span class="at-prod-subtitle" data-i18n="prodVioletSub">Viola odorata • Nile Delta Harvest</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Viola odorata L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Solvent Extraction (Hexane / Ethanol)</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>(2E,6Z)-Nonadienal, Nonadien-1-ol</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Intense green, earthy, cut-leaf floral note</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>1kg, 5kg, 25kg UN Export Containers</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Violet Leaves Absolute Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-violet-leaves" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Aniseed Essential Oil -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-aniseed">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Aniseed Essential Oil.png" alt="Egyptian Aniseed Essential Oil" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Ph. Eur. / Food Grade</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodAniseedTitle">Egyptian Aniseed Essential Oil</h3>
+            <span class="at-prod-subtitle" data-i18n="prodAniseedSub">Pimpinella anisum • Upper Egypt Crop</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Pimpinella anisum L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of ripe dried seeds</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>trans-Anethole (≥ 88.0% - 93.0%)</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Warm, sweet, intensely aromatic licorice note</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg UN Epoxy-Lined Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Aniseed Essential Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-aniseed" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Sweet Basil Linalool Essential Oil -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-basil-linalool">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Basil Linalool Oil.png" alt="Sweet Basil Linalool Essential Oil" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Low Estragole Chemotype</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodBasilTitle">Sweet Basil Linalool Essential Oil</h3>
+            <span class="at-prod-subtitle" data-i18n="prodBasilSub">Ocimum basilicum ct. linalool • Nile Valley</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Ocimum basilicum L. ct. linalool</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of flowering herb tops</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Linalool (55.0% - 70.0%), Eugenol</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Sweet herbal, fresh aromatic, mildly spicy</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Export Grade Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Basil Linalool Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-basil-linalool" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Carnation Flowers Absolute -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-carnation-flowers">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Carnation Flowers Absolute.png" alt="Carnation Flowers Absolute" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Prestige Perfumery Fixative</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodCarnationTitle">Carnation Flowers Absolute</h3>
+            <span class="at-prod-subtitle" data-i18n="prodCarnationSub">Dianthus caryophyllus • Egyptian Blossom</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Dianthus caryophyllus L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Solvent extraction of fresh petals via concrete</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Eugenol, Benzyl Benzoate, Caryophyllene</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Deep, rich, spicy-floral with warm clove honey undertones</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>1kg, 5kg, 25kg Aluminum Flasks</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Carnation Flowers Absolute" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-carnation-flowers" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Coriander Herb Essential Oil (Cilantro) -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-coriander-herb">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Coriander Herb Oil.png" alt="Coriander Herb Essential Oil (Cilantro)" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Savory & Aroma Grade</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodCorianderTitle">Coriander Herb Essential Oil (Cilantro)</h3>
+            <span class="at-prod-subtitle" data-i18n="prodCorianderSub">Coriandrum sativum • Fresh Herb Distillate</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Coriandrum sativum L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of green vegetative herb</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>2-Decenal, Decanal, (E)-2-Dodecenal</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Crisp, pungent, fresh savory herbal note</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Galvanized / Coated Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Coriander Herb Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-coriander-herb" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Cumin Seed Essential Oil -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-cumin-seed">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Cumin Seed Essential Oil.png" alt="Egyptian Cumin Seed Essential Oil" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">High Cuminaldehyde Grade</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodCuminTitle">Egyptian Cumin Seed Essential Oil</h3>
+            <span class="at-prod-subtitle" data-i18n="prodCuminSub">Cuminum cyminum • Assiut & Minya Crop</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Cuminum cyminum L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of crushed sun-cured seeds</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Cuminaldehyde (35.0% - 48.0%), Cymene</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Intensely warm, penetrating, dry-spicy culinary aroma</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Epoxy-Lined Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Cumin Seed Essential Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-cumin-seed" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Geranium Essential Oil (Bourbon Type) -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-geranium">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Geranium Oil.png" alt="Egyptian Geranium Essential Oil (Bourbon Type)" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Benchmark Export Quality</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodGeraniumTitle">Egyptian Geranium Essential Oil (Bourbon Type)</h3>
+            <span class="at-prod-subtitle" data-i18n="prodGeraniumSub">Pelargonium graveolens • Beni Suef Valley</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Pelargonium graveolens L’Hér.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of fresh aerial leaves</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Citronellol (26% - 35%), Geraniol (16% - 22%)</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Radiant rosy-green, minty-herbaceous floral heart</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg UN Steel Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Geranium Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-geranium" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Jasmine Grandiflorum Absolute -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-jasmine-absolute">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Jasmine Absolute.png" alt="Egyptian Jasmine Grandiflorum Absolute" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">World Benchmark Grand Cru</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodJasmineTitle">Egyptian Jasmine Grandiflorum Absolute</h3>
+            <span class="at-prod-subtitle" data-i18n="prodJasmineSub">Jasminum grandiflorum • Gharbia, Delta</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Jasminum grandiflorum L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Hexane extraction into concrete, ethanol purified</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Benzyl Acetate (18% - 24%), Linalool, Jasmone</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Opulent, heavenly sweet, exotic floral nectar</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>1kg, 5kg, 25kg Export Canisters</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Jasmine Absolute" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-jasmine-absolute" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Sweet Marjoram Essential Oil (Perennial) -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-marjoram-sweet">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Marjoram Sweet Oil (Perennial).png" alt="Sweet Marjoram Essential Oil (Perennial)" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Terpinen-4-ol Rich</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodMarjoramTitle">Sweet Marjoram Essential Oil (Perennial)</h3>
+            <span class="at-prod-subtitle" data-i18n="prodMarjoramSub">Origanum majorana • Middle Egypt</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Origanum majorana L.</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of flowering herb</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Terpinen-4-ol (≥ 22.0%), cis-Sabinene Hydrate</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Warm, sweet, comforting spicy-woody aroma</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Steel Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Marjoram Sweet Oil (Perennial)" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-marjoram-sweet" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Neroli Oil (Orange Blossom) -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-neroli">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Neroli Oil (Perennial).png" alt="Egyptian Neroli Oil (Orange Blossom)" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Fine Fragrance Pure Distillate</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodNeroliTitle">Egyptian Neroli Oil (Orange Blossom)</h3>
+            <span class="at-prod-subtitle" data-i18n="prodNeroliSub">Citrus aurantium amara • Spring Harvest</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Citrus aurantium L. subsp. amara</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Gentle water/steam distillation of fresh blossoms</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Linalool (32% - 42%), Limonene, Linalyl Acetate</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Sublime, fresh sparkling citrus-floral with green facets</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>1kg, 5kg, 25kg Certified Containers</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Neroli Oil (Perennial)" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-neroli" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Egyptian Parsley Essential Oil -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-parsley">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Parsley Oil.png" alt="Egyptian Parsley Essential Oil" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Aroma & Pharma Grade</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodParsleyTitle">Egyptian Parsley Essential Oil</h3>
+            <span class="at-prod-subtitle" data-i18n="prodParsleySub">Petroselinum crispum • Nile Delta</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Petroselinum crispum (Mill.) Fuss</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of mature seeds and herb</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Apiol (≥ 32%), Myristicin (≥ 20%)</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Sharp, herbal, woody, distinctive warm parsley note</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Coated Steel Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Parsley Oil" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-parsley" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Essential Oil: Petitgrain Mandarin Essential Oil -->
+        <div class="at-product-card" data-category="oils" data-product-id="oil-petitgrain-mandarin">
+          <div class="at-prod-thumb-wrap">
+            <img src="./images/Petitgrain Mandarin.png" alt="Petitgrain Mandarin Essential Oil" class="at-prod-thumb" loading="lazy" onerror="this.src='./images/Geranium Oil.png';">
+            <span class="at-prod-tag" data-i18n="catOils">Essential Oils</span>
+            <span class="at-prod-purity">Dimethyl Anthranilate Rich</span>
+          </div>
+          <div class="at-prod-body">
+            <h3 class="at-prod-title" data-i18n="prodPetitgrainTitle">Petitgrain Mandarin Essential Oil</h3>
+            <span class="at-prod-subtitle" data-i18n="prodPetitgrainSub">Citrus reticulata blanco • Orchard Harvest</span>
+            <ul class="at-prod-specs-list">
+              <li><span data-i18n="specBotanical">Botanical Source:</span> <span>Citrus reticulata Blanco</span></li>
+              <li><span data-i18n="specExtraction">Extraction:</span> <span>Steam Distillation of fresh leaves and twigs</span></li>
+              <li><span data-i18n="specConstituents">Key Markers:</span> <span>Dimethyl Anthranilate (≥ 48.0% - 65.0%)</span></li>
+              <li><span data-i18n="specAroma">Olfactory Profile:</span> <span>Tart, sparkling fruity-citrus with subtle green-floral body</span></li>
+              <li><span data-i18n="specPacking">Standard Packing:</span> <span>25kg & 180kg Export Drums</span></li>
+            </ul>
+            <div class="at-prod-footer">
+              <button class="at-btn at-btn-primary at-btn-sm at-rfq-add-btn" data-product="Petitgrain Mandarin" style="flex: 1;" data-i18n="btnAddRFQ">
+                Add to RFQ
+              </button>
+              <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="oil-petitgrain-mandarin" data-i18n="btnViewSpecs">
+                Spec Sheet
+              </button>
+            </div>
+          </div>
+        </div></div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. QUALITY CONTROL & CERTIFICATION MATRIX -->
+  <section class="at-section" id="quality">
+    <div class="at-container">
+      
+      <div class="at-section-header">
+        <div class="at-badge">
+          <span>🛡️</span> <span data-i18n="qcBadge">International Food Safety</span>
+        </div>
+        <h2 class="at-section-title" data-i18n="qcTitle">
+          Certified Purity & Multi-Stage Sortex Grading
+        </h2>
+        <p class="at-section-desc" data-i18n="qcDesc">
+          Every shipment undergoes rigorous laboratory assay and optical analysis to guarantee compliance with destination country phytosanitary standards.
+        </p>
+      </div>
+
+      <div class="at-quality-grid">
+        <div class="at-qc-card">
+          <div class="at-qc-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          </div>
+          <h4>ISO 22000 & HACCP</h4>
+          <p>Certified food safety management systems across all reception, cleaning, and packing facilities.</p>
+        </div>
+
+        <div class="at-qc-card">
+          <div class="at-qc-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <h4>Sortex Optical Purity</h4>
+          <p>Multi-spectral camera color sorters removing stained, broken, and foreign seeds up to 99.5% purity.</p>
+        </div>
+
+        <div class="at-qc-card">
+          <div class="at-qc-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          </div>
+          <h4>Phytosanitary Ministry</h4>
+          <p>Official export inspection and health certificates issued by the Egyptian Ministry of Agriculture.</p>
+        </div>
+
+        <div class="at-qc-card">
+          <div class="at-qc-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          </div>
+          <h4>SGS & Bureau Veritas</h4>
+          <p>Third-party pre-shipment inspection readiness for weight, quality, packaging, and container stuffing.</p>
+        </div>
+      </div>
+
+      <!-- QC Matrix Table -->
+      <div class="at-table-container">
+        <table class="at-qc-table">
+          <thead>
+            <tr>
+              <th data-i18n="thCommodity">Commodity</th>
+              <th data-i18n="thGrade">Grade / Caliber</th>
+              <th data-i18n="thPurity">Optical Purity</th>
+              <th data-i18n="thMoisture">Moisture Limit</th>
+              <th data-i18n="thForeign">Foreign Material</th>
+              <th data-i18n="thStatus">Inspection Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Egyptian White Beans</strong></td>
+              <td>180-200 / 200-220 pcs/100g</td>
+              <td>99.5% Min</td>
+              <td>≤ 14.0%</td>
+              <td>≤ 0.2%</td>
+              <td><span class="at-pill-pass">PASSED / EXPORT CERT</span></td>
+            </tr>
+            <tr>
+              <td><strong>Kabuli Chickpeas</strong></td>
+              <td>Selected 8mm & 9mm</td>
+              <td>99.2% Min</td>
+              <td>≤ 12.5%</td>
+              <td>≤ 0.3%</td>
+              <td><span class="at-pill-pass">PASSED / EXPORT CERT</span></td>
+            </tr>
+            <tr>
+              <td><strong>Whole Brown Lentils</strong></td>
+              <td>Grade 1 Machine Cleaned</td>
+              <td>99.5% Min</td>
+              <td>≤ 13.0%</td>
+              <td>≤ 0.2%</td>
+              <td><span class="at-pill-pass">PASSED / EXPORT CERT</span></td>
+            </tr>
+            <tr>
+              <td><strong>Dried Green Peas</strong></td>
+              <td>Sorted Whole Green</td>
+              <td>99.0% Min</td>
+              <td>≤ 13.5%</td>
+              <td>≤ 0.5%</td>
+              <td><span class="at-pill-pass">PASSED / EXPORT CERT</span></td>
+            </tr>
+            <tr>
+              <td><strong>Fresh Valencia Oranges</strong></td>
+              <td>Counts 48 - 88 (15kg box)</td>
+              <td>Brix 11.5° Min</td>
+              <td>Optimal Firmness</td>
+              <td>0.0% Decay</td>
+              <td><span class="at-pill-pass">PASSED / GLOBALGAP</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. GLOBAL EXPORT MARKETS & CONTAINER CALCULATOR -->
+  <section class="at-section at-section-alt" id="logistics">
+    <div class="at-container">
+      
+      <div class="at-section-header">
+        <div class="at-badge">
+          <span>🚢</span> <span data-i18n="logisticsBadge">Maritime Supply Chain</span>
+        </div>
+        <h2 class="at-section-title" data-i18n="logisticsTitle">
+          Global Export Markets & Container Loading
+        </h2>
+        <p class="at-section-desc" data-i18n="logisticsDesc">
+          Direct multimodal container shipments departing regularly from Alexandria Port, Damietta Port, Port Said, and Ain Sokhna to all major global sea terminals.
+        </p>
+      </div>
+
+      <div class="at-logistics-grid">
+        
+        <!-- Left: Destination Markets & Ports -->
+        <div class="at-ports-card">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--at-green); margin-bottom: 12px;">
+            Strategic Departure Gateways
+          </h3>
+          <p style="font-size: 0.88rem; color: var(--at-ink-muted); line-height: 1.6;">
+            Egypt's geographical position between the Mediterranean and the Red Sea enables expedited maritime transit times to the Gulf, Southern Europe, and North Africa.
+          </p>
+
+          <div class="at-ports-list">
+            <div class="at-port-item">
+              <span class="at-port-icon">⚓</span>
+              <div>
+                <strong style="font-size: 0.9rem;">Alexandria Port</strong>
+                <div style="font-size: 0.75rem; color: var(--at-ink-muted);">Direct to EU & Med Hubs</div>
+              </div>
+            </div>
+            <div class="at-port-item">
+              <span class="at-port-icon">⚓</span>
+              <div>
+                <strong style="font-size: 0.9rem;">Damietta Port</strong>
+                <div style="font-size: 0.75rem; color: var(--at-ink-muted);">High-efficiency container line</div>
+              </div>
+            </div>
+            <div class="at-port-item">
+              <span class="at-port-icon">⚓</span>
+              <div>
+                <strong style="font-size: 0.9rem;">Port Said</strong>
+                <div style="font-size: 0.75rem; color: var(--at-ink-muted);">East & West Suez Canal access</div>
+              </div>
+            </div>
+            <div class="at-port-item">
+              <span class="at-port-icon">⚓</span>
+              <div>
+                <strong style="font-size: 0.9rem;">Ain Sokhna</strong>
+                <div style="font-size: 0.75rem; color: var(--at-ink-muted);">Direct to Red Sea, GCC & Asia</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--at-border);">
+            <strong style="font-size: 0.88rem; color: var(--at-ink); display: block; margin-bottom: 8px;">Key Export Destinations:</strong>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <span class="at-badge">🇸🇦 Saudi Arabia</span>
+              <span class="at-badge">🇦🇪 UAE</span>
+              <span class="at-badge">🇶🇦 Qatar</span>
+              <span class="at-badge">🇰🇼 Kuwait</span>
+              <span class="at-badge">🇪🇸 Spain</span>
+              <span class="at-badge">🇮🇹 Italy</span>
+              <span class="at-badge">🇬🇷 Greece</span>
+              <span class="at-badge">🇩🇿 Algeria</span>
+              <span class="at-badge">🇹🇷 Turkey</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Container Loading Calculator -->
+        <div class="at-calc-card">
+          <h3>Container Loading Estimator</h3>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.85);">
+            Calculate your estimated container capacity, bag count, and gross metric tonnage based on standard shipping tolerances.
+          </p>
+
+          <div class="at-calc-fields">
+            <div class="at-calc-field">
+              <label>Select Container Format:</label>
+              <select class="at-calc-select" id="atCalcContainer">
+                <option value="20">20ft Heavy Duty (Max ~25 MT)</option>
+                <option value="40">40ft High Cube (Max ~27 MT)</option>
+              </select>
+            </div>
+
+            <div class="at-calc-field">
+              <label>Select Packaging Unit Capacity:</label>
+              <select class="at-calc-select" id="atCalcSack">
+                <option value="25">25 KG Standard Export Bag</option>
+                <option value="50">50 KG Standard Export Bag</option>
+                <option value="1000">1000 KG Jumbo Big Bag</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="at-calc-output">
+            <div>
+              <div class="at-calc-out-num" id="atCalcBagCount">1,000</div>
+              <div class="at-calc-out-lbl">Bags Loaded</div>
+            </div>
+            <div>
+              <div class="at-calc-out-num" id="atCalcNetWeight">25.00</div>
+              <div class="at-calc-out-lbl">Metric Tons (MT)</div>
+            </div>
+            <div>
+              <div class="at-calc-out-num" id="atCalcPallets">Palletized</div>
+              <div class="at-calc-out-lbl">Stowage Mode</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 20px; font-size: 0.78rem; color: rgba(255,255,255,0.7); text-align: center;">
+            * Loading calculations are based on standard dry maritime container tare weights and port limits.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. DOCUMENT DOWNLOAD CENTER -->
+  <section class="at-section" id="documents">
+    <div class="at-container">
+      
+      <div class="at-section-header">
+        <div class="at-badge">
+          <span>📄</span> <span data-i18n="docsBadge">Official Downloads</span>
+        </div>
+        <h2 class="at-section-title" data-i18n="docsTitle">
+          Specification Center & Corporate Documentation
+        </h2>
+        <p class="at-section-desc" data-i18n="docsDesc">
+          Download our verified export certificates, technical data sheets, and company brochures in high-resolution PDF format.
+        </p>
+      </div>
+
+      <div class="at-docs-grid">
+        
+        <!-- Arabic Profile PDF -->
+        <div class="at-doc-card">
+          <div class="at-doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          </div>
+          <h3 class="at-doc-title">الملف التعريفي للشركة (عربي)</h3>
+          <p class="at-doc-meta">Official Arabic Company Profile • 274 KB PDF</p>
+          <a href="./Altaybat_Export_Profile_Arabic.pdf" download class="at-btn at-btn-primary at-btn-sm">
+            <span>📥</span> تحميل الملف PDF
+          </a>
+        </div>
+
+        <!-- English Profile PDF -->
+        <div class="at-doc-card">
+          <div class="at-doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          </div>
+          <h3 class="at-doc-title">Company Profile (English)</h3>
+          <p class="at-doc-meta">Official English Corporate Profile • 106 KB PDF</p>
+          <a href="./Altaybat_Export_Profile_English.pdf" download class="at-btn at-btn-primary at-btn-sm">
+            <span>📥</span> Download PDF
+          </a>
+        </div>
+
+        <!-- TDS White Beans -->
+        <div class="at-doc-card">
+          <div class="at-doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+          </div>
+          <h3 class="at-doc-title">White Beans Technical Data Sheet</h3>
+          <p class="at-doc-meta">UNECE Standard TDS Spec Sheet • Interactive</p>
+          <button class="at-btn at-btn-outline at-btn-sm at-spec-open-btn" data-product-id="white-beans">
+            <span>🔍</span> Preview Specs
+          </button>
+        </div>
+
+        <!-- COA Certificate Template -->
+        <div class="at-doc-card">
+          <div class="at-doc-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          </div>
+          <h3 class="at-doc-title">Certificate of Analysis (COA)</h3>
+          <p class="at-doc-meta">Standard Lab Analysis Template • Phytosanitary</p>
+          <button class="at-btn at-btn-outline at-btn-sm" id="atOpenCoaBtn">
+            <span>🔍</span> View COA Template
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. INSTANT QUOTATION & WHATSAPP RFQ GENERATOR -->
+  <section class="at-section at-section-alt" id="rfq">
+    <div class="at-container">
+      
+      <div class="at-section-header">
+        <div class="at-badge at-badge-gold">
+          <span>⚡</span> <span data-i18n="rfqBadge">Direct Trade Funnel</span>
+        </div>
+        <h2 class="at-section-title" data-i18n="rfqTitle">
+          Instant B2B Quotation & WhatsApp RFQ Generator
+        </h2>
+        <p class="at-section-desc" data-i18n="rfqDesc">
+          Build your custom commodity order and instantly transmit a formatted export inquiry directly to our sales directors via WhatsApp or official email.
+        </p>
+      </div>
+
+      <div class="at-rfq-wrapper">
+        
+        <!-- RFQ Form -->
+        <form id="atRfqForm">
+          <div class="at-form-grid">
+            
+            <div class="at-form-group">
+              <label data-i18n="formCommodity">Select Commodity *</label>
+              <select class="at-select" id="rfqCommodity" required>
+                <optgroup label="Egyptian Pulses & Grains / البقوليات والحبوب">
+                  <option value="White Kidney Beans">White Kidney Beans (فاصوليا بيضاء)</option>
+                  <option value="Kabuli Chickpeas">Kabuli Chickpeas (حمص كابولي)</option>
+                  <option value="Egyptian Lentils">Egyptian Lentils (عدس مصري)</option>
+                  <option value="Green Peas">Green Peas (بازلاء خضراء)</option>
+                </optgroup>
+                <optgroup label="Fresh Citrus & Fruits / الموالح والفواكه">
+                  <option value="Fresh Citrus & Fruits">Fresh Citrus & Fruits (برتقال وفواكه)</option>
+                </optgroup>
+                <optgroup label="Essential Oils & Absolutes / الزيوت العطرية والخلاصات">
+                  <option value="Violet Leaves Absolute Oil">Violet Leaves Absolute Oil (أبسولوت أوراق البنفسج المصري)</option>
+                  <option value="Aniseed Essential Oil">Aniseed Essential Oil (زيت الينسون المصري النقي)</option>
+                  <option value="Basil Linalool Oil">Basil Linalool Oil (زيت الريحان الحلو (لينالول))</option>
+                  <option value="Carnation Flowers Absolute">Carnation Flowers Absolute (أبسولوت زهور القرنفل الفاخر)</option>
+                  <option value="Coriander Herb Oil">Coriander Herb Oil (زيت عشب الكزبرة الخضراء (سيلانترو))</option>
+                  <option value="Cumin Seed Essential Oil">Cumin Seed Essential Oil (زيت بذور الكمون البلدي العطري)</option>
+                  <option value="Geranium Oil">Geranium Oil (زيت الجيرانيوم المصري الفاخر)</option>
+                  <option value="Jasmine Absolute">Jasmine Absolute (أبسولوت الياسمين المصري الفاخر)</option>
+                  <option value="Marjoram Sweet Oil (Perennial)">Marjoram Sweet Oil (Perennial) (زيت البردقوش الحلو (المعمر))</option>
+                  <option value="Neroli Oil (Perennial)">Neroli Oil (Perennial) (زيت النيرولي المصري (زهر النارنج))</option>
+                  <option value="Parsley Oil">Parsley Oil (زيت بذور وعشب البقدونس)</option>
+                  <option value="Petitgrain Mandarin">Petitgrain Mandarin (زيت بيتي جران المندرين (أوراق اليوسفي))</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="at-form-group">
+              <label data-i18n="formVolume">Target Volume (Metric Tons) *</label>
+              <input type="number" class="at-input" id="rfqVolume" value="25" min="1" max="10000" required>
+            </div>
+
+            <div class="at-form-group">
+              <label data-i18n="formIncoterm">Delivery Incoterm *</label>
+              <select class="at-select" id="rfqIncoterm" required>
+                <option value="FOB (Alexandria / Damietta)">FOB (Alexandria / Damietta Port)</option>
+                <option value="CIF (Destination Port)">CIF (Cost, Insurance & Freight)</option>
+                <option value="CFR (Cost & Freight)">CFR (Cost & Freight)</option>
+              </select>
+            </div>
+
+            <div class="at-form-group">
+              <label data-i18n="formPackaging">Packaging Format *</label>
+              <select class="at-select" id="rfqPackaging" required>
+                <option value="25 KG Export Bags">25 KG Export Bags</option>
+                <option value="50 KG Export Bags">50 KG Export Bags</option>
+                <option value="1000 KG Jumbo Big Bags">1000 KG Jumbo Big Bags</option>
+                <option value="Cartons (15 KG) for Fresh Produce">Cartons (15 KG) for Fresh Produce</option>
+              </select>
+            </div>
+
+            <div class="at-form-group">
+              <label data-i18n="formDestination">Destination Port & Country *</label>
+              <input type="text" class="at-input" id="rfqDestination" placeholder="e.g. Jeddah Islamic Port, Saudi Arabia" value="Jeddah Islamic Port, KSA" required>
+            </div>
+
+            <div class="at-form-group">
+              <label data-i18n="formBuyer">Company / Buyer Name *</label>
+              <input type="text" class="at-input" id="rfqBuyer" placeholder="Your Company Name" required>
+            </div>
+
+            <div class="at-form-group full">
+              <label data-i18n="formNotes">Custom Specifications or Instructions</label>
+              <textarea class="at-textarea" id="rfqNotes" rows="3" placeholder="Specify caliber sizes, packing markings, private label requirements, target shipment schedule..."></textarea>
+            </div>
+
+          </div>
+        </form>
+
+        <!-- RFQ Live Preview & Action -->
+        <div class="at-rfq-preview-card">
+          <div class="at-rfq-preview-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span>📋</span> <span data-i18n="rfqSummaryTitle">Generated RFQ Specification</span>
+            </div>
+            <button type="button" class="at-btn at-btn-outline at-btn-sm" id="atResetRfqBtn" style="padding: 4px 10px; font-size: 0.75rem;" title="Reset and re-sync from form fields">
+              🔄 <span data-i18n="btnResetRfq">Re-sync Form</span>
+            </button>
+          </div>
+
+          <div style="font-size: 0.78rem; color: var(--at-green); font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+            <span>✏️</span> <span data-i18n="rfqEditableHint">Live editable specification — feel free to customize directly before transmitting.</span>
+          </div>
+
+          <textarea class="at-rfq-summary-box" id="atRfqSummaryBox" rows="13" spellcheck="false" placeholder="Your generated RFQ specification will appear here..."></textarea>
+
+          <div class="at-rfq-actions">
+            <button class="at-btn at-btn-whatsapp" id="atSendWhatsAppRfqBtn">
+              <span>💬</span> <span data-i18n="btnSendWhatsApp">Transmit via WhatsApp (+201065535509)</span>
+            </button>
+            <button class="at-btn at-btn-primary" id="atSendEmailRfqBtn">
+              <span>✉️</span> <span data-i18n="btnSendEmail">Send via Official Email</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. FOOTER -->
+  <footer class="at-footer">
+    <div class="at-container">
+      
+      <div class="at-footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="at-footer-col">
+          <div class="at-logo-wrap" style="margin-bottom: 16px;">
+            <div class="at-logo-mark" style="border-color: var(--at-gold);">AT</div>
+            <div class="at-logo-titles">
+              <span class="at-logo-ar" style="color: var(--at-gold);">الطيبات للتصدير</span>
+              <span class="at-logo-en" style="color: #fff;">ALTAYBAT FOR EXPORT</span>
+            </div>
+          </div>
+          <p style="font-size: 0.84rem; line-height: 1.7; color: rgba(255,255,255,0.75);">
+            ALTAYBAT FOR EXPORT is an established Egyptian agricultural commodity exporter specializing in machine-cleaned, Sortex 99.5% optical purity white beans, chickpeas, lentils, citrus, and essential oils.
+          </p>
+          <div style="margin-top: 16px; font-size: 0.8rem; color: var(--at-gold-light);">
+            📍 Arab Republic of Egypt • Commercial Reg: 84920/EG • Tax ID: 622-194-802
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="at-footer-col">
+          <h4 data-i18n="footerColLinks">Quick Navigation</h4>
+          <ul class="at-footer-links">
+            <li><a href="#about" data-i18n="navAbout">About Us</a></li>
+            <li><a href="#products" data-i18n="navProducts">Export Portfolio</a></li>
+            <li><a href="#quality" data-i18n="navQuality">Quality & Sortex</a></li>
+            <li><a href="#logistics" data-i18n="navLogistics">Export Markets</a></li>
+            <li><a href="#documents" data-i18n="navDocs">Document Center</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Export Products -->
+        <div class="at-footer-col">
+          <h4 data-i18n="footerColProducts">Export Crops</h4>
+          <ul class="at-footer-links">
+            <li><a href="#products">White Kidney Beans (180-240)</a></li>
+            <li><a href="#products">Kabuli Chickpeas (7-10mm)</a></li>
+            <li><a href="#products">Egyptian Brown & Red Lentils</a></li>
+            <li><a href="#products">Sorted Green Peas</a></li>
+            <li><a href="#products">Valencia Oranges & Pomegranates</a></li>
+            <li><a href="#products">Jasmine & Geranium Essential Oils</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Official Contact -->
+        <div class="at-footer-col">
+          <h4 data-i18n="footerColContact">Direct Trade Desk</h4>
+          <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.85rem;">
+            <div>
+              <span style="color: var(--at-gold);">WhatsApp:</span><br>
+              <a href="https://wa.me/201065535509" target="_blank" rel="noopener noreferrer" style="color: #25D366; font-weight: 800;">
+                +20 106 553 5509
+              </a>
+            </div>
+            <div>
+              <span style="color: var(--at-gold);">Email:</span><br>
+              <a href="mailto:altaybat.export@gmail.com" style="color: #fff;">
+                altaybat.export@gmail.com
+              </a>
+            </div>
+            <div>
+              <span style="color: var(--at-gold);">Hours:</span><br>
+              <span>08:00 - 18:00 (Cairo Time GMT+2)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="at-footer-bottom">
+        <div>
+          © <span id="atCurrentYear">2026</span> ALTAYBAT FOR EXPORT (الطيبات للتصدير). All Rights Reserved.
+        </div>
+        <div>
+          Export Quality - Egyptian Origin | جودة تصديرية - منشأ مصري
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS & OVERLAYS
+       ========================================================================== -->
+
+  <!-- Product Spec Sheet Modal -->
+  <div class="at-modal-backdrop" id="atSpecModal">
+    <div class="at-modal-content">
+      <button class="at-modal-close" id="atSpecModalClose">&times;</button>
+      <div id="atSpecModalBody">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Client Portal Demo Modal -->
+  <div class="at-modal-backdrop" id="atPortalModal">
+    <div class="at-modal-content">
+      <button class="at-modal-close" id="atPortalModalClose">&times;</button>
+      <div style="text-align: center; margin-bottom: 24px;">
+        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--at-green-subtle); color: var(--at-green); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; font-size: 1.5rem;">
+          🔒
+        </div>
+        <h3 style="font-size: 1.4rem; font-weight: 900; color: var(--at-green);">B2B Client Tracking Portal</h3>
+        <p style="font-size: 0.85rem; color: var(--at-ink-muted);">Track active maritime shipments & download certified inspection bills</p>
+      </div>
+
+      <div style="background: var(--at-bg-alt); border: 1px solid var(--at-border); border-radius: var(--at-radius-md); padding: 18px; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 8px;">
+          <span><strong>Shipment ID:</strong> #ATB-2026-MSC941</span>
+          <span class="at-pill-pass">ON SCHEDULE</span>
+        </div>
+        <div style="font-size: 0.95rem; font-weight: 800; color: var(--at-ink);">
+          Alexandria Port (EG) ➔ Jeddah Islamic Port (SA)
+        </div>
+        <div style="font-size: 0.8rem; color: var(--at-ink-muted); margin-top: 4px;">
+          Vessel: MSC LEANNE • 2x 40ft HC (54 MT White Kidney Beans)
+        </div>
+
+        <div class="at-track-steps">
+          <div class="at-track-step">
+            <h5>Container Stuffing & Sealed</h5>
+            <p>Al Taybat Alexandria Depot • Clean phytosanitary stamp applied</p>
+          </div>
+          <div class="at-track-step">
+            <h5>Customs Clearance & Bill of Lading Issued</h5>
+            <p>Alexandria Customs Hub • Telex release granted</p>
+          </div>
+          <div class="at-track-step">
+            <h5>Maritime Transit in Progress</h5>
+            <p>Estimated arrival at Jeddah Terminal: 48 Hours</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10px;">
+        <button class="at-btn at-btn-primary at-btn-sm" style="flex: 1;" onclick="alert('Simulation: Verified Phytosanitary and SGS Inspection certificate downloaded.');">
+          <span>📄</span> Download COA & B/L
+        </button>
+        <a href="https://wa.me/201065535509?text=Inquiry%20regarding%20Container%20ATB-2026-MSC941" target="_blank" rel="noopener noreferrer" class="at-btn at-btn-whatsapp at-btn-sm">
+          <span>💬</span> Contact Dispatch
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Element -->
+  <div class="at-toast" id="atToast">
+    <span>✅</span> <span id="atToastMsg">Action completed successfully.</span>
+  </div>
+
+</div>
+
+<!-- ==========================================================================
+     VANILLA JAVASCRIPT LOGIC (IIFE Encapsulated for WordPress Protection)
+     Zero external dependencies.
+     ========================================================================== -->
+<script>
+(() => {
+  'use strict';
+
+  // Master Root Container
+  const root = document.getElementById('altaybat-web-root');
+  if (!root) return;
+
+  // Scoped DOM Helpers
+  const $ = (selector, scope = root) => scope.querySelector(selector);
+  const $$ = (selector, scope = root) => Array.from(scope.querySelectorAll(selector));
+
+  // ==========================================================================
+  // 1. SMART BILINGUAL TRANSLATION ENGINE & DICTIONARY
+  // ==========================================================================
+  const TRANSLATIONS = {
+    en: {
+      pageTitle: "ALTAYBAT FOR EXPORT | الطيبات للتصدير — Premium Egyptian Agricultural Products",
+      metaDesc: "ALTAYBAT FOR EXPORT is an Egyptian agricultural commodity exporter specializing in premium white beans, chickpeas, lentils, citrus, and essential oils with Sortex 99.5% purity.",
+      topbarLocation: "Alexandria & Nile Delta, Arab Republic of Egypt",
+      topbarHours: "Trading Hours: 08:00 - 18:00 (Cairo GMT+2)",
+      navAbout: "About Us",
+      navProducts: "Export Portfolio",
+      navQuality: "Quality & Sortex",
+      navLogistics: "Export Markets",
+      navDocs: "Document Center",
+      navRFQ: "Instant RFQ",
+      portalBtn: "Client Portal",
+      headerWhatsApp: "WhatsApp RFQ",
+      heroBadge: "Export Quality - Egyptian Origin",
+      heroTitlePart1: "Premium Egyptian Crops",
+      heroTitlePart2: "Engineered for Global B2B Excellence",
+      heroDesc: "ALTAYBAT FOR EXPORT is an established Egyptian commodity producer and exporter specializing in machine-cleaned, optical Sortex 99.5% White Beans, Kabuli Chickpeas, Lentils, Fresh Citrus, and Pure Essential Oils. Delivered in certified export packaging, bulk containers, and premium retail formats built for transoceanic shipping.",
+      heroBtnQuote: "Request Instant Quotation",
+      heroBtnProducts: "Explore Export Crops",
+      heroBtnProfile: "Company Profile PDF",
+      metricSortex: "Sortex Optical Purity",
+      metricCountries: "Destination Markets",
+      metricTerms: "Flexible Trade Terms",
+      metricBags: "Export Packaging & Jumbo",
+      heroShowcaseTag: "★ PREMIUM COMMODITIES",
+      heroImgTitle: "White Kidney Beans & Pulses",
+      featSortex: "Optical Sortex",
+      featPorts: "Sea Gateways",
+      featLab: "Phytosanitary",
+      featPackaging: "Export Packaging",
+      aboutBadge: "Nile Delta Agricultural Heritage",
+      aboutTitle: "Rooted in Egyptian Soil, Engineered for Global Trust",
+      aboutP1: "ALTAYBAT FOR EXPORT (الطيبات للتصدير) is an established Egyptian agricultural commodity enterprise situated in the heart of Egypt's richest alluvial farmland across the Nile Delta and Upper Egypt. For decades, our agrarian partnerships with select farming estates have guaranteed high-germination, pesticide-controlled crops meeting rigid European and GCC food security regulations.",
+      aboutP2: "Our state-of-the-art sorting, grading, and packaging infrastructure utilizes multi-spectral optical Sortex machinery to isolate foreign materials, discolored seeds, and splits with 99.5% accuracy. Every shipment and container packed carries the seal of authentic Egyptian agricultural mastery.",
+      aboutStamp: "Egyptian Heritage",
+      aboutBtnCrops: "Explore Crop Portfolio",
+      aboutBtnArabicProfile: "الملف التعريفي (عربي)",
+      timelineHeader: "Our Seed-to-Container Quality Journey",
+      step1Title: "Agronomic Selection",
+      step1Desc: "Direct farm contracts, regulated seed genetics, soil mineral testing, and zero-residue irrigation monitoring.",
+      step2Title: "Optical Sortex Grading",
+      step2Desc: "Mechanical de-stoning, aspiration, vibration screens, and dual-camera optical Sortex color sorting up to 99.5% purity.",
+      step3Title: "Laboratory Assay",
+      step3Desc: "Stringent testing for moisture content (≤14%), aflatoxins, pesticide residue limits, and caliber distribution verification.",
+      step4Title: "Export Bagging & Packing",
+      step4Desc: "Automated electronic weighing into 25kg & 50kg standard export bags and 1000kg bulk jumbo bags with reinforced double stitching.",
+      step5Title: "Fumigation & Port Dispatch",
+      step5Desc: "Container palletization, kraft paper lining, certified aluminum phosphide fumigation, and direct ocean dispatch from Alexandria or Damietta.",
+      catalogBadge: "Export Crop Portfolio",
+      catalogTitle: "Certified Egyptian Agricultural Commodities",
+      catalogDesc: "Strictly graded according to UNECE and Codex Alimentarius standards. Ready for containerized bulk shipment to global distributors, food processors, and supermarket packagers.",
+      tabAll: "All Commodities",
+      tabPulses: "Pulses & Grains",
+      tabFruits: "Fresh Citrus & Fruits",
+      tabOils: "Essential Oils & Absolutes",
+      catPulses: "Pulses & Grains",
+      catFruits: "Fresh Citrus & Fruits",
+      catOils: "Essential Oils",
+      prodBeansTitle: "White Kidney Beans",
+      prodBeansSub: "فاصوليا بيضاء مصرية فاخرة",
+      prodChickpeasTitle: "Kabuli Chickpeas",
+      prodChickpeasSub: "حمص مصري كابولي",
+      prodLentilsTitle: "Whole & Split Lentils",
+      prodLentilsSub: "عدس مصري بني وأحمر مجروش",
+      prodPeasTitle: "Green Peas & Split Peas",
+      prodPeasSub: "بازلاء خضراء مجففة ومفروزة",
+      prodFruitsTitle: "Fresh Egyptian Citrus & Fruits",
+      prodFruitsSub: "برتقال فالنسيا، رمان وندرفل، عنب",
+      prodOilsTitle: "Egyptian Essential Oils & Absolutes",
+      prodOilsSub: "ياسمين، جيرانيوم، نيرولي، ريحان",
+      specBotanical: "Botanical Source:",
+      specConstituents: "Key Markers:",
+      specAroma: "Olfactory Profile:",
+      prodVioletTitle: "Egyptian Violet Leaves Absolute",
+      prodVioletSub: "Viola odorata • Nile Delta Harvest",
+      prodAniseedTitle: "Egyptian Aniseed Essential Oil",
+      prodAniseedSub: "Pimpinella anisum • Upper Egypt Crop",
+      prodBasilTitle: "Sweet Basil Linalool Essential Oil",
+      prodBasilSub: "Ocimum basilicum ct. linalool • Nile Valley",
+      prodCarnationTitle: "Carnation Flowers Absolute",
+      prodCarnationSub: "Dianthus caryophyllus • Egyptian Blossom",
+      prodCorianderTitle: "Coriander Herb Essential Oil (Cilantro)",
+      prodCorianderSub: "Coriandrum sativum • Fresh Herb Distillate",
+      prodCuminTitle: "Egyptian Cumin Seed Essential Oil",
+      prodCuminSub: "Cuminum cyminum • Assiut & Minya Crop",
+      prodGeraniumTitle: "Egyptian Geranium Essential Oil (Bourbon Type)",
+      prodGeraniumSub: "Pelargonium graveolens • Beni Suef Valley",
+      prodJasmineTitle: "Egyptian Jasmine Grandiflorum Absolute",
+      prodJasmineSub: "Jasminum grandiflorum • Gharbia, Delta",
+      prodMarjoramTitle: "Sweet Marjoram Essential Oil (Perennial)",
+      prodMarjoramSub: "Origanum majorana • Middle Egypt",
+      prodNeroliTitle: "Egyptian Neroli Oil (Orange Blossom)",
+      prodNeroliSub: "Citrus aurantium amara • Spring Harvest",
+      prodParsleyTitle: "Egyptian Parsley Essential Oil",
+      prodParsleySub: "Petroselinum crispum • Nile Delta",
+      prodPetitgrainTitle: "Petitgrain Mandarin Essential Oil",
+      prodPetitgrainSub: "Citrus reticulata blanco • Orchard Harvest",
+      specCaliber: "Export Calibers:",
+      specPurity: "Optical Purity:",
+      specMoisture: "Moisture Content:",
+      specBroken: "Broken / Split:",
+      specPacking: "Standard Packing:",
+      specForeign: "Foreign Matter:",
+      specType: "Varieties / Form:",
+      specVar: "Key Varieties:",
+      specBrix: "Brix Level:",
+      specCalibration: "Counts/Carton:",
+      specCert: "Phytosanitary:",
+      specPortfolio: "Distillates:",
+      specExtraction: "Extraction:",
+      specUsage: "Application:",
+      btnAddRFQ: "Add to RFQ",
+      btnViewSpecs: "Spec Sheet",
+      qcBadge: "International Food Safety",
+      qcTitle: "Certified Purity & Multi-Stage Sortex Grading",
+      qcDesc: "Every shipment undergoes rigorous laboratory assay and optical analysis to guarantee compliance with destination country phytosanitary standards.",
+      thCommodity: "Commodity",
+      thGrade: "Grade / Caliber",
+      thPurity: "Optical Purity",
+      thMoisture: "Moisture Limit",
+      thForeign: "Foreign Material",
+      thStatus: "Inspection Status",
+      logisticsBadge: "Maritime Supply Chain",
+      logisticsTitle: "Global Export Markets & Container Loading",
+      logisticsDesc: "Direct multimodal container shipments departing regularly from Alexandria Port, Damietta Port, Port Said, and Ain Sokhna to all major global sea terminals.",
+      docsBadge: "Official Downloads",
+      docsTitle: "Specification Center & Corporate Documentation",
+      docsDesc: "Download our verified export certificates, technical data sheets, and company brochures in high-resolution PDF format.",
+      rfqBadge: "Direct Trade Funnel",
+      rfqTitle: "Instant B2B Quotation & WhatsApp RFQ Generator",
+      rfqDesc: "Build your custom commodity order and instantly transmit a formatted export inquiry directly to our sales directors via WhatsApp or official email.",
+      formCommodity: "Select Commodity *",
+      formVolume: "Target Volume (Metric Tons) *",
+      formIncoterm: "Delivery Incoterm *",
+      formPackaging: "Packaging Format *",
+      formDestination: "Destination Port & Country *",
+      formBuyer: "Company / Buyer Name *",
+      formNotes: "Custom Specifications or Instructions",
+      rfqSummaryTitle: "Generated RFQ Specification",
+      rfqEditableHint: "Live editable specification — feel free to customize directly before transmitting.",
+      btnResetRfq: "Re-sync Form",
+      btnSendWhatsApp: "Transmit via WhatsApp (+201065535509)",
+      btnSendEmail: "Send via Official Email",
+      footerColLinks: "Quick Navigation",
+      footerColProducts: "Export Crops",
+      footerColContact: "Direct Trade Desk"
+    },
+
+    ar: {
+      pageTitle: "الطيبات للتصدير | ALTAYBAT FOR EXPORT — حاصلات زراعية مصرية فاخرة",
+      metaDesc: "شركة الطيبات للتصدير متخصصة في تصدير الفاصوليا البيضاء، الحمص، العدس، والموالح المصرية المفروزة إلكترونياً بنقاوة سورتكس 99.5% في عبوات وأكياس تصديرية قياسية.",
+      topbarLocation: "الإسكندرية والدلتا، جمهورية مصر العربية",
+      topbarHours: "ساعات التداول: 08:00 - 18:00 (توقيت القاهرة GMT+2)",
+      navAbout: "من نحن",
+      navProducts: "محفظة الصادرات",
+      navQuality: "الجودة والفرز",
+      navLogistics: "أسواق التصدير",
+      navDocs: "مركز المستندات",
+      navRFQ: "طلب تسعير فوري",
+      portalBtn: "بوابة العملاء",
+      headerWhatsApp: "طلب تسعير واتساب",
+      heroBadge: "جودة تصديرية - منشأ مصري",
+      heroTitlePart1: "محاصيل زراعية مصرية فاخرة",
+      heroTitlePart2: "مصممة للتميز التجاري الدولي",
+      heroDesc: "شركة الطيبات للتصدير هي كيان مصري رائد في فرز وتجهيز وتصدير الحاصلات الزراعية بنقاوة سورتكس 99.5٪، تشمل الفاصوليا البيضاء، الحمص الكابولي، العدس، الموالح والزيوت العطرية. معبأة في عبوات وأكياس تصديرية معتمدة ومجهزة للشحن البحري الدولي.",
+      heroBtnQuote: "طلب تسعير رسمي فوري",
+      heroBtnProducts: "استعراض محفظة المحاصيل",
+      heroBtnProfile: "تحميل الملف التعريفي PDF",
+      metricSortex: "نقاوة فرز سورتكس البصري",
+      metricCountries: "وجهة تصديرية دولية",
+      metricTerms: "شروط شحن مرنة FOB/CIF",
+      metricBags: "عبوات تصدير وأكياس جامبو",
+      heroShowcaseTag: "★ محاصيل تصديرية معتمدة",
+      heroImgTitle: "فاصوليا بيضاء وبقوليات مصرية",
+      featSortex: "سورتكس بصري",
+      featPorts: "موانئ الانطلاق",
+      featLab: "فحص الحجر الزراعي",
+      featPackaging: "التعبئة التصديرية",
+      aboutBadge: "أصالة الزراعة في دلتا النيل",
+      aboutTitle: "جذور راسخة في الأرض المصرية، موثوقية في الأسواق العالمية",
+      aboutP1: "تقع شركة الطيبات للتصدير في قلب أخصب أراضي وادي النيل ودلتا مصر، حيث نتعاقد مباشرة مع مزارع معتمدة تلتزم بأعلى معايير الإشراف الزراعي وخلو المحاصيل من متبقيات المبيدات ومطابقتها للمواصفات القياسية الأوروبية والخليجية.",
+      aboutP2: "تمتلك الشركة خطوط فرز آلية حديثة تعمل بأحدث كاميرات السورتكس المزدوجة التي تضمن عزل الشوائب والحبوب غير المطابقة بنقاوة تصل إلى 99.5%. كل شحنة وحاوية تصدير تحمل ختم الجودة المصرية المعتمدة.",
+      aboutStamp: "أصالة مصرية 100%",
+      aboutBtnCrops: "استعراض قائمة المحاصيل",
+      aboutBtnArabicProfile: "الملف التعريفي (عربي)",
+      timelineHeader: "رحلة الجودة: من الحقل إلى الحاوية",
+      step1Title: "الرقابة الزراعية المباشرة",
+      step1Desc: "عقود مباشرة مع كبرى المزارع، ومتابعة جودة التربة ونقاء البذور ومياه الري لضمان سلامة المحصول.",
+      step2Title: "الفرز البصري والسورتكس",
+      step2Desc: "مراحل تنقية ميكانيكية شاملة ونزع الحجارة والغربلة، تليها كاميرات السورتكس الملونة لعزل أدق العيوب بنقاوة 99.5%.",
+      step3Title: "الفحص المخبري والتحليل",
+      step3Desc: "تحليل دقيق لنسبة الرطوبة (≤14%) والأفلاتوكسين وخلو المتبقيات ومعايرة أحجام الحبوب بدقة متناهية.",
+      step4Title: "التعبئة والتغليف التصديري",
+      step4Desc: "تعبئة آلية وموزونة إلكترونياً في أكياس 25 و 50 كجم وحاويات جامبو 1000 كجم مع خياطة مدعومة مزدوجة.",
+      step5Title: "التبخير والشحن البحري",
+      step5Desc: "تبخير معتمد بغاز الفوسفين وتبطين الحاويات بالكرتون المقوى والشحن المباشر عبر موانئ الإسكندرية ودمياط وبورسعيد والسخنة.",
+      catalogBadge: "محفظة الحاصلات الزراعية",
+      catalogTitle: "حاصلات زراعية مصرية معتمدة للتصدير الدولي",
+      catalogDesc: "مصنفة بدقة وفقاً لمواصفات هيئة الدستور الغذائي (Codex) ومفوضية UNECE، جاهزة للشحن البحري السريع لمستوردي السلع وسلاسل التعبئة الكبرى.",
+      tabAll: "جميع المنتجات",
+      tabPulses: "البقوليات والحبوب",
+      tabFruits: "الموالح والفواكه الطازجة",
+      tabOils: "الزيوت العطرية وخلاصات الزهور",
+      catPulses: "بقوليات وحبوب",
+      catFruits: "موالح وفواكه طازجة",
+      catOils: "زيوت عطرية",
+      prodBeansTitle: "فاصوليا بيضاء جافة",
+      prodBeansSub: "White Kidney Beans Export Grade",
+      prodChickpeasTitle: "حمص مصري كابولي",
+      prodChickpeasSub: "Selected Kabuli Chickpeas",
+      prodLentilsTitle: "عدس كامل ومجروش",
+      prodLentilsSub: "Egyptian Whole & Split Lentils",
+      prodPeasTitle: "بازلاء خضراء ومجروشة",
+      prodPeasSub: "Egyptian Dried Green Peas",
+      prodFruitsTitle: "موالح وفواكه مصرية طازجة",
+      prodFruitsSub: "Valencia Oranges, Pomegranates",
+      prodOilsTitle: "زيوت عطرية وخلاصات طبيعية",
+      prodOilsSub: "Jasmine, Geranium, Neroli, Basil",
+      specBotanical: "المصدر النباتي:",
+      specConstituents: "المكونات الفعالة:",
+      specAroma: "البصمة العطرية:",
+      prodVioletTitle: "أبسولوت أوراق البنفسج المصري",
+      prodVioletSub: "Viola odorata • خلاصة أوراق خضراء فاخرة",
+      prodAniseedTitle: "زيت الينسون المصري النقي",
+      prodAniseedSub: "Pimpinella anisum • مقطر بالبخار بنقاوة صيدلانية",
+      prodBasilTitle: "زيت الريحان الحلو (لينالول)",
+      prodBasilSub: "Ocimum basilicum • منخفض الاستراجول - جودة علاجية",
+      prodCarnationTitle: "أبسولوت زهور القرنفل الفاخر",
+      prodCarnationSub: "Dianthus caryophyllus • خلاصة عطرية راقية للمحافل العالمية",
+      prodCorianderTitle: "زيت عشب الكزبرة الخضراء (سيلانترو)",
+      prodCorianderSub: "Coriandrum sativum • مقطر من العشب الغض طازجاً",
+      prodCuminTitle: "زيت بذور الكمون البلدي العطري",
+      prodCuminSub: "Cuminum cyminum • تركيز عالي للكارين والكيمينالدهيد",
+      prodGeraniumTitle: "زيت الجيرانيوم المصري الفاخر",
+      prodGeraniumSub: "Pelargonium graveolens • النمط البوربوني العالمي الفاخر",
+      prodJasmineTitle: "أبسولوت الياسمين المصري الفاخر",
+      prodJasmineSub: "Jasminum grandiflorum • درة قطاف دلتا النيل لعطور باريس",
+      prodMarjoramTitle: "زيت البردقوش الحلو (المعمر)",
+      prodMarjoramSub: "Origanum majorana • تركيز عالي للتربينين-4-أول",
+      prodNeroliTitle: "زيت النيرولي المصري (زهر النارنج)",
+      prodNeroliSub: "Citrus aurantium • قطاف يدوي طازج لأزهار النارنج",
+      prodParsleyTitle: "زيت بذور وعشب البقدونس",
+      prodParsleySub: "Petroselinum crispum • غني بالأبيول والميريستيسين",
+      prodPetitgrainTitle: "زيت بيتي جران المندرين (أوراق اليوسفي)",
+      prodPetitgrainSub: "Citrus reticulata • خلاصة أغصان وأوراق اليوسفي البلدي",
+      specCaliber: "الأحجام التصديرية:",
+      specPurity: "النقاوة البصرية:",
+      specMoisture: "نسبة الرطوبة القصوى:",
+      specBroken: "نسبة المكسور:",
+      specPacking: "نوع التعبئة:",
+      specForeign: "المواد الغريبة:",
+      specType: "الأصناف والأشكال:",
+      specVar: "أهم الأصناف:",
+      specBrix: "مستوى البركس (السكريات):",
+      specCalibration: "عدد الحبات بالكرتونة:",
+      specCert: "الشهادات النباتية:",
+      specPortfolio: "أبرز المستخلصات:",
+      specExtraction: "طريقة الاستخلاص:",
+      specUsage: "الاستخدامات الصناعية:",
+      btnAddRFQ: "إضافة لطلب التسعير",
+      btnViewSpecs: "بطاقة المواصفات",
+      qcBadge: "السلامة الغذائية والجودة الدولية",
+      qcTitle: "نقاوة معتمدة وفرز متعدد المراحل بالسورتكس",
+      qcDesc: "تخضع جميع الشحنات لفحوصات مخبرية دقيقة وفحص نباتي حكومي لضمان الامتثال الصارم لاشتراطات الاستيراد في موانئ الوصول.",
+      thCommodity: "المحصول",
+      thGrade: "الرتبة / الحجم",
+      thPurity: "النقاوة البصرية",
+      thMoisture: "الحد الأقصى للرطوبة",
+      thForeign: "المواد الغريبة",
+      thStatus: "حالة الفحص والتصدير",
+      logisticsBadge: "سلاسل الإمداد والشحن البحري",
+      logisticsTitle: "أسواق التصدير العالمية وحساب حمولة الحاويات",
+      logisticsDesc: "شحنات بحرية دورية تنطلق مباشرة من موانئ الإسكندرية، دمياط، بورسعيد، والعين السخنة إلى كافة الموانئ والأسواق الدولية.",
+      docsBadge: "المستندات والشهادات الرسمية",
+      docsTitle: "مركز المواصفات الفنية والمستندات الرسمية",
+      docsDesc: "حمّل الشهادات المعتمدة، وبطاقات التحليل الفني، والملف التعريفي الرسمي للشركة بصيغة PDF عالية الجودة.",
+      rfqBadge: "قناة التعاقد المباشر",
+      rfqTitle: "مولد عروض الأسعار الفوري وطلبات الواتساب",
+      rfqDesc: "حدد تفاصيل طلبك التجاري وقم بإنشاء طلب استيراد رسمي يتم إرساله مباشرة إلى إدارة الصادرات عبر الواتساب أو البريد الإلكتروني.",
+      formCommodity: "اختر المحصول المطلوب *",
+      formVolume: "الكمية المطلوبة (بالطن المتري) *",
+      formIncoterm: "شرط التسليم والشحن *",
+      formPackaging: "طريقة التعبئة المطلوبة *",
+      formDestination: "ميناء الوصول والدولة *",
+      formBuyer: "اسم الشركة / المشتري *",
+      formNotes: "مواصفات أو اشتراطات خاصة",
+      rfqSummaryTitle: "تفاصيل طلب الاستيراد المولد",
+      rfqEditableHint: "نص تفاعلي قابل للتعديل — يمكنك تخصيص أو تعديل الرسالة مباشرة قبل الإرسال.",
+      btnResetRfq: "إعادة المزامنة",
+      btnSendWhatsApp: "إرسال عبر الواتساب (+201065535509)",
+      btnSendEmail: "إرسال عبر البريد الرسمي",
+      footerColLinks: "روابط سريعة",
+      footerColProducts: "محاصيل التصدير",
+      footerColContact: "إدارة المبيعات الدولية"
+    }
+  };
+
+  // Language Detection Hierarchy (5 Levels)
+  const ARABIC_REGIONS = new Set(['EG', 'SA', 'AE', 'QA', 'KW', 'BH', 'OM', 'JO', 'IQ', 'MA', 'TN', 'DZ', 'LY', 'SD', 'LB', 'YE', 'SY']);
+  const ARABIC_TIMEZONES = new Set([
+    'Africa/Cairo', 'Asia/Riyadh', 'Asia/Dubai', 'Asia/Qatar', 'Asia/Kuwait',
+    'Asia/Bahrain', 'Asia/Muscat', 'Asia/Amman', 'Asia/Baghdad', 'Africa/Casablanca',
+    'Africa/Tunis', 'Africa/Algiers', 'Africa/Tripoli', 'Africa/Khartoum'
+  ]);
+
+  function detectUserLanguage() {
+    // 1. Saved Preference
+    try {
+      const saved = localStorage.getItem('altaybatLanguage');
+      if (saved === 'ar' || saved === 'en') return saved;
+    } catch (_) {}
+
+    // 2. Browser Navigation Languages
+    const langs = navigator.languages || [navigator.language || ''];
+    for (const l of langs) {
+      const code = String(l).toLowerCase().split('-')[0];
+      if (code === 'ar') return 'ar';
+      if (code === 'en') return 'en';
+    }
+
+    // 3. Locale Region Heuristic
+    for (const l of langs) {
+      try {
+        const region = new Intl.Locale(l).region;
+        if (region && ARABIC_REGIONS.has(region.toUpperCase())) return 'ar';
+      } catch (_) {}
+    }
+
+    // 4. Timezone Heuristic
+    try {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      if (tz && ARABIC_TIMEZONES.has(tz)) return 'ar';
+    } catch (_) {}
+
+    // 5. Default
+    return 'en';
+  }
+
+  let currentLang = detectUserLanguage();
+
+  function applyLanguage(lang) {
+    currentLang = lang;
+    try {
+      localStorage.setItem('altaybatLanguage', lang);
+    } catch (_) {}
+
+    root.setAttribute('lang', lang);
+    root.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+
+    const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
+    document.title = dict.pageTitle;
+
+    // Update all elements with data-i18n
+    $$('[data-i18n]', root).forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key]) {
+        el.textContent = dict[key];
+      }
+    });
+
+    // Update Switcher Active state
+    $$('.at-lang-btn', root).forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+
+    // Update RFQ dynamic preview
+    updateRfqPreview();
+  }
+
+  // Bind Language Switcher Buttons
+  $$('.at-lang-btn', root).forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetLang = btn.getAttribute('data-lang');
+      applyLanguage(targetLang);
+      showToast(targetLang === 'ar' ? 'تم تحويل اللغة إلى العربية' : 'Language set to English');
+    });
+  });
+
+  // ==========================================================================
+  // 2. PRODUCT CATALOG FILTERING & MODAL SPEC SHEETS
+  // ==========================================================================
+  const filterBtns = $$('.at-catalog-tabs .at-tab-btn', root);
+  const prodCards = $$('.at-product-card', root);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.getAttribute('data-filter');
+
+      prodCards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || filter === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Product Spec Sheets Data
+  const PRODUCT_SPECS_MODAL = {
+    'white-beans': {
+      title: 'White Kidney Beans (الفاصوليا البيضاء)',
+      table: [
+        ['Standard Calibers', '180-200, 200-220, 220-240 pcs/100g'],
+        ['Optical Purity', '99.0% - 99.5% Minimum (Sortex Optical Sorted)'],
+        ['Moisture Content', '≤ 14.0% Maximum'],
+        ['Foreign Material', '≤ 0.2% (De-stoned & Aspirated)'],
+        ['Broken / Damaged', '≤ 1.0% Maximum'],
+        ['Discolored Seeds', '≤ 0.5% Maximum'],
+        ['Crop Season', '2026 Fresh Egyptian Harvest'],
+        ['Packaging', '25kg & 50kg Export Bags / 1000kg Jumbo Bags'],
+        ['Shelf Life', '24 Months (Stored in ventilated, dry warehouse)']
+      ]
+    },
+    'chickpeas': {
+      title: 'Kabuli Chickpeas (الحمص المصري الكابولي)',
+      table: [
+        ['Selected Calibers', '7mm, 8mm, 9mm, 10mm Jumbo'],
+        ['Optical Purity', '99.2% Minimum (Double Sortex Optical Cleared)'],
+        ['Moisture Content', '≤ 12.5% Maximum'],
+        ['Foreign Material', '≤ 0.2% Maximum'],
+        ['Split / Broken', '≤ 1.2% Maximum'],
+        ['Germination Rate', '≥ 95% High Purity Seed Grade'],
+        ['Crop Season', '2026 Fresh Egyptian Harvest'],
+        ['Packaging', '25kg & 50kg Export Bags / 1000kg Big Bags']
+      ]
+    },
+    'lentils': {
+      title: 'Egyptian Lentils (العدس المصري الكامل والمجروش)',
+      table: [
+        ['Varieties Available', 'Whole Brown Lentils, Red Football, Split Red Lentils'],
+        ['Optical Purity', '99.5% Minimum'],
+        ['Moisture Content', '≤ 13.0% Maximum'],
+        ['Unpeeled Grains', '≤ 0.5% in Split Grades'],
+        ['Foreign Matter', '≤ 0.1% Maximum'],
+        ['Cooking Time', 'Uniform Rapid Hydration & Softening'],
+        ['Packaging', '25kg Standard Export Bags']
+      ]
+    },
+    'peas': {
+      title: 'Dried Green Peas & Split Peas (البازلاء الخضراء)',
+      table: [
+        ['Grade Specifications', 'Class 1 Sorted Whole & Split Green Peas'],
+        ['Optical Purity', '99.0% Minimum'],
+        ['Moisture Content', '≤ 13.5% Maximum'],
+        ['Broken / Bleached', '≤ 1.5% Maximum'],
+        ['Packaging', '25kg & 50kg Standard Bags']
+      ]
+    },
+    'fruits': {
+      title: 'Fresh Citrus & Fruits (الموالح والفواكه الطازجة)',
+      table: [
+        ['Key Varieties', 'Valencia Oranges, Murcott Mandarins, Wonderful Pomegranates'],
+        ['Caliber Distribution', 'Counts 48, 56, 64, 72, 80, 88, 100 per carton'],
+        ['Brix Level', '11.5° - 13.5° Natural Sugar Content'],
+        ['Phytosanitary', 'GlobalGAP Certified, Cold Treatment Protocol Compliant'],
+        ['Packaging', '15kg Open-top / Telescopic Export Cartons (Reefer Containers)']
+      ]
+    },
+        'oil-violet-leaves': {
+      title: 'Egyptian Violet Leaves Absolute (أبسولوت أوراق البنفسج)',
+      table: [
+        ['Botanical Source', 'Viola odorata L. (Family: Violaceae)'],
+        ['Harvest Origin', 'Gharbia & Qalyubia, Nile Delta, Egypt'],
+        ['Extraction Process', 'Food-grade Hexane extraction to concrete, ethanol purification to absolute'],
+        ['Appearance & Color', 'Deep dark green to emerald viscous liquid'],
+        ['GC/MS Major Markers', '(2E,6Z)-Nonadienal, (2E,6Z)-Nonadien-1-ol, Linolenic acid derivatives'],
+        ['Olfactory Profile', 'Intensely green, leafy, fresh cucumber-like with deep earthy-violet nuances'],
+        ['Refractive Index (20°C)', '1.4800 – 1.5050'],
+        ['Specific Gravity (20°C)', '0.920 – 0.960 g/cm³'],
+        ['Applications', 'High-end prestige perfumery, green accord modifier, luxury skincare'],
+        ['Standard Packaging', '1kg, 5kg, 25kg UV-shielded aluminum bottles & coated drums'],
+        ['Quality Certification', '100% Pure & Natural Absolute, IFRA Compliant, Certificate of Analysis (COA)']
+      ]
+    },
+    'oil-aniseed': {
+      title: 'Egyptian Aniseed Essential Oil (زيت الينسون المصري النقي)',
+      table: [
+        ['Botanical Source', 'Pimpinella anisum L. (Family: Apiaceae)'],
+        ['Cultivation Region', 'Minya, Beni Suef, Assiut (Upper Egypt)'],
+        ['Distillation Method', 'Steam Distillation of cleaned mature dry anise seeds'],
+        ['Appearance & Color', 'Clear colorless to faint pale yellow; solidifies at < 15°C'],
+        ['GC/MS Signature Markers', 'trans-Anethole ≥ 88.0% – 93.0%, Estragole ≤ 3.0%, Pseudoisoeugenol'],
+        ['Olfactory Character', 'Intensely sweet, warm, characteristic licorice and herbal aroma'],
+        ['Refractive Index (20°C)', '1.5520 – 1.5590'],
+        ['Relative Density (20°C)', '0.980 – 0.990 g/cm³'],
+        ['Compliance Standards', 'Ph. Eur., USP, FCC, Food Grade & Halal Certified'],
+        ['Standard Packaging', '25kg & 180kg UN-certified epoxy-coated steel drums'],
+        ['Industrial Applications', 'Pharmaceutical cough syrups, confectionery, spirits, aromatherapy']
+      ]
+    },
+    'oil-basil-linalool': {
+      title: 'Sweet Basil Linalool Essential Oil (زيت الريحان لينالول)',
+      table: [
+        ['Botanical Source', 'Ocimum basilicum L. ct. linalool (Family: Lamiaceae)'],
+        ['Egyptian Harvest Region', 'Beni Suef & Middle Egypt agrarian belt'],
+        ['Extraction Method', 'Steam Distillation of freshly harvested flowering tops'],
+        ['Appearance', 'Clear, pale yellow to light amber fluid'],
+        ['GC/MS Chemotype Assay', 'Linalool 55.0% – 70.0%, Eugenol 4.0% – 9.0%, Methyl Chavicol ≤ 5.0%'],
+        ['Odor Description', 'Sweet herbaceous, crisp spicy-floral with anise undertones'],
+        ['Refractive Index (20°C)', '1.4800 – 1.4950'],
+        ['Density at 20°C', '0.890 – 0.920 g/cm³'],
+        ['Therapeutic / Use', 'Cosmetics, anti-fatigue aromatherapy, premium culinary flavorings'],
+        ['Packaging', '25kg & 180kg Export certified drums'],
+        ['Safety Standard', 'Low estragole content meeting strict EU safety directives']
+      ]
+    },
+    'oil-carnation-flowers': {
+      title: 'Carnation Flowers Absolute (أبسولوت زهور القرنفل الفاخر)',
+      table: [
+        ['Botanical Source', 'Dianthus caryophyllus L. (Family: Caryophyllaceae)'],
+        ['Origin / Region', 'Nile Delta Flower Plantations, Egypt'],
+        ['Extraction Method', 'Solvent extraction to concrete followed by high-proof alcohol absolute washing'],
+        ['Appearance & Color', 'Viscous reddish-amber to brown liquid'],
+        ['Major Active Molecules', 'Eugenol, Benzyl Benzoate, beta-Caryophyllene, Benzyl Salicylate'],
+        ['Olfactory Character', 'Opulent, warm honeyed spicy-floral with a tenacious clove-like drydown'],
+        ['Specific Gravity (20°C)', '0.985 – 1.045 g/cm³'],
+        ['Perfumery Role', 'Outstanding natural fixative and spicy floral modifier in oriental compositions'],
+        ['Standard Packaging', '1kg, 5kg, 25kg UN-Approved Aluminum flasks and drums'],
+        ['Purity Guarantee', '100% Pure & Natural Botanical Absolute, pesticide-residue compliant']
+      ]
+    },
+    'oil-coriander-herb': {
+      title: 'Coriander Herb Essential Oil - Cilantro (زيت عشب الكزبرة الخضراء)',
+      table: [
+        ['Botanical Source', 'Coriandrum sativum L. (Family: Apiaceae)'],
+        ['Harvest Origin', 'Nile Delta Green Belt, Egypt'],
+        ['Distillation Part', 'Fresh aerial green vegetative stems and leaves before flowering'],
+        ['Appearance', 'Clear, light yellow to greenish fluid'],
+        ['GC/MS Marker Compounds', '2-Decenal, Decanal, (E)-2-Dodecenal, Linalool, Decanol'],
+        ['Olfactory Profile', 'Crisp, pungent, zesty savory green with distinctive cilantro character'],
+        ['Refractive Index (20°C)', '1.4550 – 1.4750'],
+        ['Applications', 'Culinary flavor compounds, salsa seasoning, soaps, niche fragrances'],
+        ['Packaging', '25kg & 180kg Food-Grade Epoxy-Coated Drums'],
+        ['Assurance', '100% Pure Botanical, Steam Distilled, Batch GC/MS verified']
+      ]
+    },
+    'oil-cumin-seed': {
+      title: 'Egyptian Cumin Seed Essential Oil (زيت بذور الكمون البلدي)',
+      table: [
+        ['Botanical Source', 'Cuminum cyminum L. (Family: Apiaceae)'],
+        ['Harvest Region', 'Assiut, Sohag & Minya, Upper Egypt'],
+        ['Extraction Method', 'Steam Distillation of crushed sun-cured ripe seeds'],
+        ['Appearance', 'Colorless to pale yellow liquid darkening with age'],
+        ['GC/MS Signature Markers', 'Cuminaldehyde 35.0% – 48.0%, p-Cymene 15.0% – 25.0%, beta-Pinene'],
+        ['Odor Description', 'Extremely powerful, penetrating, warm spicy, characteristic cumin profile'],
+        ['Refractive Index (20°C)', '1.4980 – 1.5150'],
+        ['Specific Gravity (20°C)', '0.905 – 0.935 g/cm³'],
+        ['Industry Utilization', 'Spice oleoresins, meat seasoning, digestive pharmaceuticals, fragrances'],
+        ['Standard Packaging', '25kg & 180kg UN-Certified steel drums with internal protective coating'],
+        ['Quality Assurance', 'ISO 9776 Compliant, Heavy Metal & Pesticide Screened']
+      ]
+    },
+    'oil-geranium': {
+      title: 'Egyptian Geranium Essential Oil (زيت الجيرانيوم المصري الفاخر)',
+      table: [
+        ['Botanical Source', 'Pelargonium graveolens L’Hér. (Family: Geraniaceae)'],
+        ['Egyptian Producing Hub', 'Beni Suef, Fayoum & Minya Governorates'],
+        ['Distillation Process', 'Field steam distillation of freshly reaped aerial stems and leaves'],
+        ['Appearance & Color', 'Pale green to amber-yellow luminous liquid'],
+        ['GC/MS Optimal Assay', 'Citronellol 26.0% – 35.0%, Geraniol 16.0% – 22.0%, Citronellyl Formate 6.0% – 12.0%'],
+        ['Citronellol / Geraniol Ratio', 'Ideal 1.2 : 1 to 1.6 : 1 (Egyptian Bourbon Benchmark)'],
+        ['Olfactory Bouquet', 'Fresh, rosy-floral with minty-green notes and delicate earthy sweetness'],
+        ['Refractive Index (20°C)', '1.4600 – 1.4720'],
+        ['Specific Gravity (20°C)', '0.885 – 0.905 g/cm³'],
+        ['Global Standing', 'Egypt is a top global producer supplying prestige French perfumeries'],
+        ['Standard Packaging', '25kg & 180kg UN-approved drums with tamper-proof seal']
+      ]
+    },
+    'oil-jasmine-absolute': {
+      title: 'Egyptian Jasmine Grandiflorum Absolute (أبسولوت الياسمين المصري)',
+      table: [
+        ['Botanical Source', 'Jasminum grandiflorum L. (Family: Oleaceae)'],
+        ['World Capital of Jasmine', 'Kutama & Shubra Belula, Gharbia Governorate, Nile Delta'],
+        ['Harvest Protocol', 'Hand-picked daily at dawn (3:00 AM – 8:00 AM) to preserve peak aroma'],
+        ['Extraction Technique', 'Hexane extraction yielding concrete (50% yield) then chilled absolute purification'],
+        ['Appearance', 'Viscous deep orange to amber-red liquid'],
+        ['GC/MS Marker Compounds', 'Benzyl Acetate 18.0% – 24.0%, Linalool 5.0% – 8.0%, Benzyl Benzoate 10.0% – 14.0%, cis-Jasmone, Phytol'],
+        ['Olfactory Profile', 'Incomparably voluptuous, warm honeyed floral with tea-like indolic undertones'],
+        ['Global Export Share', 'Egypt provides over 60% of the world jasmine demand for fine fragrance houses'],
+        ['Packaging', '1kg, 5kg, 25kg Light-shielded UN fluorinated aluminum containers'],
+        ['Certification', '100% Pure Botanical Absolute, IFRA Certified, Full GC/MS Report']
+      ]
+    },
+    'oil-marjoram-sweet': {
+      title: 'Sweet Marjoram Essential Oil - Perennial (زيت البردقوش الحلو المعمر)',
+      table: [
+        ['Botanical Source', 'Origanum majorana L. (Family: Lamiaceae)'],
+        ['Cultivation Areas', 'Fayoum, Beni Suef & Nile Valley, Egypt'],
+        ['Distillation Process', 'Steam Distillation of shade-dried flowering tops and leaves'],
+        ['Appearance', 'Clear, pale yellow to yellowish-green fluid'],
+        ['Active Assay Markers', 'Terpinen-4-ol ≥ 22.0%, cis-Sabinene Hydrate ≥ 10.0%, gamma-Terpinene 12.0% – 18.0%'],
+        ['Odor Description', 'Warm, sweet, comforting herbaceous-woody note with spicy accents'],
+        ['Refractive Index (20°C)', '1.4700 – 1.4760'],
+        ['Specific Gravity (20°C)', '0.890 – 0.906 g/cm³'],
+        ['Therapeutic Value', 'Calming nervous tension, muscle relaxation oils, medicinal balms'],
+        ['Packaging', '25kg & 180kg Export certified epoxy drums'],
+        ['Compliance', 'European Pharmacopoeia (Ph. Eur.) Grade Compliant']
+      ]
+    },
+    'oil-neroli': {
+      title: 'Egyptian Neroli Essential Oil (زيت النيرولي زهر النارنج)',
+      table: [
+        ['Botanical Source', 'Citrus aurantium L. subsp. amara (Family: Rutaceae)'],
+        ['Orchard Locations', 'Gharbia, Menofia, Qalyubia (Nile Delta Groves)'],
+        ['Harvest Window', 'March – April (Spring blossom peak hand-picked bloom)'],
+        ['Distillation Method', 'Gentle hydro-distillation / steam distillation of pristine blossoms'],
+        ['Appearance & Color', 'Pale yellow to pale amber luminous transparent liquid'],
+        ['GC/MS Key Compounds', 'Linalool 30.0% – 42.0%, Limonene 9.0% – 18.0%, Linalyl Acetate 3.0% – 15.0%, Nerolidol 3.0% – 6.0%'],
+        ['Olfactory Profile', 'Sublime, light sparkling citrus floral, deeply uplifting with clean bitter-green backnote'],
+        ['Luxury Application', 'The foundation of prestige Eau de Colognes, royal perfumery, skin elixir'],
+        ['Standard Packaging', '1kg, 5kg, 25kg UN Light-proof fluorinated bottles & aluminum drums'],
+        ['Purity Guarantee', '100% Pure & Natural Blossom Distillate, 0% Reconstituted or Synthetic']
+      ]
+    },
+    'oil-parsley': {
+      title: 'Egyptian Parsley Essential Oil (زيت بذور وعشب البقدونس)',
+      table: [
+        ['Botanical Source', 'Petroselinum crispum (Mill.) Fuss (Family: Apiaceae)'],
+        ['Origin / Region', 'Nile Delta Fertile Agriculture Lands, Egypt'],
+        ['Distillation Process', 'Steam Distillation of mature dry seeds and fresh vegetative herb'],
+        ['Appearance', 'Yellow to dark amber-brown fluid'],
+        ['GC/MS Marker Fractions', 'Apiol ≥ 32.0%, Myristicin ≥ 20.0%, 1,3,8-p-Menthatriene, beta-Pinene'],
+        ['Olfactory Character', 'Strong, penetrating herbal-spicy, distinctly characteristic warm parsley aroma'],
+        ['Specific Gravity (20°C)', '1.040 – 1.080 g/cm³ (Seed grade high density)'],
+        ['Commercial Uses', 'Canned food seasoning, meat cures, pharmaceutical soaps, savory blends'],
+        ['Standard Packaging', '25kg & 180kg UN-Approved epoxy-lined steel export drums'],
+        ['Quality Assurance', 'Pure botanical source, rigorous pesticide and microbial screening']
+      ]
+    },
+    'oil-petitgrain-mandarin': {
+      title: 'Petitgrain Mandarin Essential Oil (زيت بيتي جران المندرين)',
+      table: [
+        ['Botanical Source', 'Citrus reticulata Blanco (Family: Rutaceae)'],
+        ['Orchard Location', 'Delta Citrus Orchards (Menofia & Beheira, Egypt)'],
+        ['Distillation Material', 'Green leaves and tender pruning twigs from mandarin trees'],
+        ['Appearance & Color', 'Pale yellowish-green to emerald clear liquid'],
+        ['GC/MS Signature Compound', 'Dimethyl Anthranilate ≥ 48.0% – 65.0%, Limonene, gamma-Terpinene, Thymol'],
+        ['Olfactory Profile', 'Intensely fruity-mandarin, sparkling citrus-sweet with fine green-floral depth'],
+        ['Refractive Index (20°C)', '1.5150 – 1.5450'],
+        ['Specific Gravity (20°C)', '0.980 – 1.020 g/cm³'],
+        ['Industry Roles', 'High luxury perfumery (fruity floral accords), beverage and confectionery flavor'],
+        ['Packaging', '25kg & 180kg Food-grade export steel drums'],
+        ['Authenticity', '100% Pure, unadulterated, batch traceable GC/MS certificate provided']
+      ]
+    },
+    'essential-oils': {
+      title: 'Pure Essential Oils & Herbal Absolutes (الزيوت العطرية)',
+      table: [
+        ['Botanicals Distilled', 'Jasmine Absolute, Geranium, Neroli, Basil Linalool, Marjoram, Cumin, Coriander'],
+        ['Analysis Standard', 'GC/MS Certified 100% Pure & Natural botanical distillate'],
+        ['Active Ingredients', 'Exceeds standard European Pharmacopoeia concentrations'],
+        ['Packaging', '25kg & 180kg UN-Approved Fluorinated / Epoxy-Lined Steel Drums']
+      ]
+    }
+  };
+
+  const specModal = $('#atSpecModal');
+  const specModalBody = $('#atSpecModalBody');
+  const specModalClose = $('#atSpecModalClose');
+
+  function openSpecModal(productId) {
+    const data = PRODUCT_SPECS_MODAL[productId];
+    if (!data || !specModal || !specModalBody) return;
+
+    let rowsHtml = data.table.map(([key, val]) => `
+      <tr style="border-bottom: 1px solid var(--at-border);">
+        <td style="padding: 10px 14px; font-weight: 700; color: var(--at-ink); width: 40%;">${key}</td>
+        <td style="padding: 10px 14px; color: var(--at-ink-muted);">${val}</td>
+      </tr>
+    `).join('');
+
+    specModalBody.innerHTML = `
+      <div style="text-align: center; margin-bottom: 20px;">
+        <span class="at-badge">Official Specification Sheet</span>
+        <h3 style="font-size: 1.4rem; font-weight: 900; color: var(--at-green); margin-top: 8px;">${data.title}</h3>
+      </div>
+      <table style="width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-bottom: 24px;">
+        <tbody>${rowsHtml}</tbody>
+      </table>
+      <div style="display: flex; gap: 10px;">
+        <button class="at-btn at-btn-primary at-btn-sm" style="flex: 1;" onclick="document.getElementById('rfqCommodity').value='${data.title.split('(')[0].trim()}'; document.getElementById('atSpecModal').classList.remove('open'); window.location.hash='#rfq';">
+          Request Quote for this Product
+        </button>
+      </div>
+    `;
+
+    specModal.classList.add('open');
+  }
+
+  $$('.at-spec-open-btn', root).forEach(btn => {
+    btn.addEventListener('click', () => {
+      const pId = btn.getAttribute('data-product-id');
+      openSpecModal(pId);
+    });
+  });
+
+  if (specModalClose && specModal) {
+    specModalClose.addEventListener('click', () => specModal.classList.remove('open'));
+    specModal.addEventListener('click', e => {
+      if (e.target === specModal) specModal.classList.remove('open');
+    });
+  }
+
+  // Add to RFQ quick button in product cards
+  $$('.at-rfq-add-btn', root).forEach(btn => {
+    btn.addEventListener('click', () => {
+      const prod = btn.getAttribute('data-product');
+      const selectEl = $('#rfqCommodity');
+      if (selectEl) {
+        for (let i = 0; i < selectEl.options.length; i++) {
+          if (selectEl.options[i].text.toLowerCase().includes(prod.toLowerCase())) {
+            selectEl.selectedIndex = i;
+            break;
+          }
+        }
+      }
+      updateRfqPreview();
+      window.location.hash = '#rfq';
+      showToast(currentLang === 'ar' ? `تم اختيار ${prod} لطلب التسعير` : `Selected ${prod} for quotation`);
+    });
+  });
+
+  // ==========================================================================
+  // 3. CONTAINER LOADING ESTIMATOR
+  // ==========================================================================
+  const calcContainer = $('#atCalcContainer');
+  const calcSack = $('#atCalcSack');
+  const outBags = $('#atCalcBagCount');
+  const outNet = $('#atCalcNetWeight');
+  const outPallets = $('#atCalcPallets');
+
+  function updateContainerCalc() {
+    if (!calcContainer || !calcSack || !outBags || !outNet || !outPallets) return;
+
+    const contSize = calcContainer.value; // '20' or '40'
+    const sackSize = parseFloat(calcSack.value); // 25, 50, 1000
+
+    let maxTons = contSize === '20' ? 25.0 : 27.0;
+    let bags = 0;
+
+    if (sackSize === 1000) {
+      bags = Math.floor(maxTons);
+      maxTons = bags * 1.0;
+      outPallets.textContent = `${bags} Big Bags`;
+    } else {
+      bags = Math.floor((maxTons * 1000) / sackSize);
+      maxTons = (bags * sackSize) / 1000;
+      outPallets.textContent = contSize === '20' ? '20 Pallets' : '24 Pallets';
+    }
+
+    outBags.textContent = bags.toLocaleString();
+    outNet.textContent = maxTons.toFixed(2);
+  }
+
+  if (calcContainer && calcSack) {
+    calcContainer.addEventListener('change', updateContainerCalc);
+    calcSack.addEventListener('change', updateContainerCalc);
+    updateContainerCalc();
+  }
+
+  // ==========================================================================
+  // 4. B2B RFQ GENERATOR (WhatsApp & Email Funnel)
+  // ==========================================================================
+  const rfqForm = $('#atRfqForm');
+  const rfqSummaryBox = $('#atRfqSummaryBox');
+  const btnWhatsAppRfq = $('#atSendWhatsAppRfqBtn');
+  const btnEmailRfq = $('#atSendEmailRfqBtn');
+
+  function getRfqData() {
+    return {
+      commodity: $('#rfqCommodity') ? $('#rfqCommodity').value : 'White Kidney Beans',
+      volume: $('#rfqVolume') ? $('#rfqVolume').value : '25',
+      incoterm: $('#rfqIncoterm') ? $('#rfqIncoterm').value : 'FOB (Alexandria / Damietta)',
+      packaging: $('#rfqPackaging') ? $('#rfqPackaging').value : '25 KG Export Bags',
+      destination: $('#rfqDestination') ? $('#rfqDestination').value : 'Jeddah Islamic Port, KSA',
+      buyer: $('#rfqBuyer') ? $('#rfqBuyer').value.trim() : '',
+      notes: $('#rfqNotes') ? $('#rfqNotes').value.trim() : ''
+    };
+  }
+
+  function generateRfqText(lang = currentLang) {
+    const d = getRfqData();
+    const buyerName = d.buyer || (lang === 'ar' ? 'مشتري دولي' : 'International Buyer');
+
+    if (lang === 'ar') {
+      return `السلام عليكم ورحمة الله وبركاته،
+تحية طيبة إلى شركة الطيبات للتصدير (جمهورية مصر العربية)،
+
+أود طلب عرض سعر رسمي (Formal Quotation) وفقاً للمحددات التالية:
+──────────────────────────────
+• المحصول المطلوب: ${d.commodity}
+• الكمية الإجمالية: ${d.volume} طن متري (MT)
+• شرط الشحن المطلوب: ${d.incoterm}
+• طريقة التعبئة: ${d.packaging}
+• ميناء الوصول المستهدف: ${d.destination}
+• اسم المشتري / الشركة: ${buyerName}
+${d.notes ? `• ملاحظات ومواصفات إضافية: ${d.notes}` : ''}
+──────────────────────────────
+برجاء موافاتنا بأفضل الأسعار المتاحة مع جدول مواعيد التحميل وتفاصيل شهادة الفحص المعتمدة.
+شاكرين حسن تعاونكم.`;
+    } else {
+      return `Dear ALTAYBAT FOR EXPORT Sales Team,
+
+I would like to request an official Export Quotation with the following specifications:
+──────────────────────────────
+• Commodity: ${d.commodity}
+• Volume Required: ${d.volume} Metric Tons (MT)
+• Delivery Incoterm: ${d.incoterm}
+• Packaging Requirement: ${d.packaging}
+• Destination Port: ${d.destination}
+• Company / Buyer Name: ${buyerName}
+${d.notes ? `• Specific Instructions / Calibers: ${d.notes}` : ''}
+──────────────────────────────
+Please provide your best CFR/FOB quote, earliest dispatch window, and standard Certificate of Analysis.
+Looking forward to establishing long-term business cooperation.`;
+    }
+  }
+
+  let userHasEditedRfq = false;
+
+  function updateRfqPreview(force = false) {
+    if (!rfqSummaryBox) return;
+    if (!userHasEditedRfq || force) {
+      rfqSummaryBox.value = generateRfqText(currentLang);
+      if (force) userHasEditedRfq = false;
+    }
+  }
+
+  if (rfqSummaryBox) {
+    rfqSummaryBox.addEventListener('input', () => {
+      userHasEditedRfq = true;
+    });
+  }
+
+  const resetRfqBtn = $('#atResetRfqBtn');
+  if (resetRfqBtn) {
+    resetRfqBtn.addEventListener('click', () => {
+      updateRfqPreview(true);
+      showToast(currentLang === 'ar' ? 'تمت إعادة مزامنة نص الطلب مع النموذج' : 'RFQ specification re-synced with form');
+    });
+  }
+
+  // Update preview on input changes
+  if (rfqForm) {
+    rfqForm.addEventListener('input', () => updateRfqPreview(false));
+  }
+
+  // WhatsApp Button Action: uses user's edited content
+  if (btnWhatsAppRfq) {
+    btnWhatsAppRfq.addEventListener('click', () => {
+      const text = (rfqSummaryBox && rfqSummaryBox.value.trim()) ? rfqSummaryBox.value.trim() : generateRfqText(currentLang);
+      const encoded = encodeURIComponent(text);
+      const whatsappUrl = `https://wa.me/201065535509?text=${encoded}`;
+      window.open(whatsappUrl, '_blank');
+      showToast(currentLang === 'ar' ? 'جاري فتح تطبيق واتساب...' : 'Opening WhatsApp...');
+    });
+  }
+
+  // Email Button Action: uses user's edited content
+  if (btnEmailRfq) {
+    btnEmailRfq.addEventListener('click', () => {
+      const text = (rfqSummaryBox && rfqSummaryBox.value.trim()) ? rfqSummaryBox.value.trim() : generateRfqText(currentLang);
+      const subject = encodeURIComponent(`B2B Export Quotation Request — ${getRfqData().commodity} (${getRfqData().volume} MT)`);
+      const body = encodeURIComponent(text);
+      const mailtoUrl = `mailto:altaybat.export@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = mailtoUrl;
+      showToast(currentLang === 'ar' ? 'جاري فتح برنامج البريد...' : 'Opening email client...');
+    });
+  }
+
+  // ==========================================================================
+  // 5. CLIENT PORTAL MODAL & COA MODAL
+  // ==========================================================================
+  const portalModal = $('#atPortalModal');
+  const portalOpenBtn = $('#atPortalOpenBtn');
+  const portalOpenBtnMobile = $('#atPortalOpenBtnMobile');
+  const portalModalClose = $('#atPortalModalClose');
+
+  function openPortal() {
+    if (portalModal) portalModal.classList.add('open');
+  }
+  function closePortal() {
+    if (portalModal) portalModal.classList.remove('open');
+  }
+
+  if (portalOpenBtn) portalOpenBtn.addEventListener('click', openPortal);
+  if (portalOpenBtnMobile) portalOpenBtnMobile.addEventListener('click', () => {
+    closeMobileDrawer();
+    openPortal();
+  });
+  if (portalModalClose) portalModalClose.addEventListener('click', closePortal);
+  if (portalModal) {
+    portalModal.addEventListener('click', e => {
+      if (e.target === portalModal) closePortal();
+    });
+  }
+
+  // View COA Template Button
+  const openCoaBtn = $('#atOpenCoaBtn');
+  if (openCoaBtn) {
+    openCoaBtn.addEventListener('click', () => {
+      openSpecModal('white-beans');
+    });
+  }
+
+  // ==========================================================================
+  // 6. MOBILE DRAWER & NAVIGATION
+  // ==========================================================================
+  const mobileToggle = $('#atMobileToggle');
+  const mobileDrawer = $('#atMobileDrawer');
+  const drawerBackdrop = $('#atDrawerBackdrop');
+  const drawerClose = $('#atDrawerClose');
+
+  function openMobileDrawer() {
+    if (mobileDrawer) mobileDrawer.classList.add('open');
+    if (drawerBackdrop) drawerBackdrop.classList.add('open');
+  }
+  function closeMobileDrawer() {
+    if (mobileDrawer) mobileDrawer.classList.remove('open');
+    if (drawerBackdrop) drawerBackdrop.classList.remove('open');
+  }
+
+  if (mobileToggle) mobileToggle.addEventListener('click', openMobileDrawer);
+  if (drawerClose) drawerClose.addEventListener('click', closeMobileDrawer);
+  if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeMobileDrawer);
+
+  $$('.at-mobile-link', root).forEach(link => {
+    link.addEventListener('click', closeMobileDrawer);
+  });
+
+  // Sticky Header elevation shadow on scroll
+  const header = $('#atHeader');
+  window.addEventListener('scroll', () => {
+    if (header) {
+      if (window.scrollY > 30) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    }
+  }, { passive: true });
+
+  // Escape key closes modals
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (specModal) specModal.classList.remove('open');
+      if (portalModal) portalModal.classList.remove('open');
+      closeMobileDrawer();
+    }
+  });
+
+  // ==========================================================================
+  // 7. TOAST NOTIFICATION UTILITY
+  // ==========================================================================
+  const toast = $('#atToast');
+  const toastMsg = $('#atToastMsg');
+  let toastTimer = null;
+
+  function showToast(message) {
+    if (!toast || !toastMsg) return;
+    toastMsg.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 3500);
+  }
+
+  // Current Year in footer
+  const yrEl = $('#atCurrentYear');
+  if (yrEl) yrEl.textContent = new Date().getFullYear();
+
+  // Initial Language Setup
+  applyLanguage(currentLang);
+
+})();
+</script>
+
+</body>
+</html>
