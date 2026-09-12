@@ -3466,7 +3466,7 @@
             <div class="at-form-group">
               <label data-i18n="formIncoterm">Delivery Incoterm *</label>
               <select class="at-select" id="rfqIncoterm" required>
-                <option value="FOB (Alexandria / Damietta)">FOB (Alexandria / Damietta Port)</option>
+                <option value="FOB (Free on Board)">FOB (Free on Board)</option>
                 <option value="CIF (Destination Port)">CIF (Cost, Insurance & Freight)</option>
                 <option value="CFR (Cost & Freight)">CFR (Cost & Freight)</option>
               </select>
@@ -3478,7 +3478,7 @@
                 <option value="25 KG Export Bags">25 KG Export Bags</option>
                 <option value="50 KG Export Bags">50 KG Export Bags</option>
                 <option value="1000 KG Jumbo Big Bags">1000 KG Jumbo Big Bags</option>
-                <option value="Cartons (15 KG) for Fresh Produce">Cartons (15 KG) for Fresh Produce</option>
+                <option value="Cartons with customizable weights for fresh produce">Cartons with customizable weights for fresh produce</option>
               </select>
             </div>
 
@@ -4588,7 +4588,7 @@
     return {
       commodity: $('#rfqCommodity') ? $('#rfqCommodity').value : 'White Kidney Beans',
       volume: $('#rfqVolume') ? $('#rfqVolume').value : '25',
-      incoterm: $('#rfqIncoterm') ? $('#rfqIncoterm').value : 'FOB (Alexandria / Damietta)',
+      incoterm: $('#rfqIncoterm') ? $('#rfqIncoterm').value : 'FOB (Free on Board)',
       packaging: $('#rfqPackaging') ? $('#rfqPackaging').value : '25 KG Export Bags',
       destination: $('#rfqDestination') ? $('#rfqDestination').value : 'Jeddah Islamic Port, KSA',
       buyer: $('#rfqBuyer') ? $('#rfqBuyer').value.trim() : '',
