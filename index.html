@@ -1308,7 +1308,7 @@
        ========================================================================== */
     #altaybat-web-root .at-docs-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
     }
     #altaybat-web-root .at-doc-card {
@@ -3335,18 +3335,6 @@
           </button>
         </div>
 
-        <!-- COA Certificate Template -->
-        <div class="at-doc-card">
-          <div class="at-doc-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-          </div>
-          <h3 class="at-doc-title">Certificate of Analysis (COA)</h3>
-          <p class="at-doc-meta">Standard Lab Analysis Template • Phytosanitary</p>
-          <button class="at-btn at-btn-outline at-btn-sm" id="atOpenCoaBtn">
-            <span>🔍</span> View COA Template
-          </button>
-        </div>
-
       </div>
 
       <!-- Interactive In-Page Company Profile Flipbook & PDF Viewer -->
@@ -4722,14 +4710,6 @@ Looking forward to establishing long-term business cooperation.`;
   if (portalModal) {
     portalModal.addEventListener('click', e => {
       if (e.target === portalModal) closePortal();
-    });
-  }
-
-  // View COA Template Button
-  const openCoaBtn = $('#atOpenCoaBtn');
-  if (openCoaBtn) {
-    openCoaBtn.addEventListener('click', () => {
-      openSpecModal('white-beans');
     });
   }
 
