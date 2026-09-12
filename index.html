@@ -52,6 +52,14 @@
        Ultra-Premium B2B Commodity Export Design System
        ========================================================================== */
 
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow-x: hidden;
+      -webkit-text-size-adjust: 100%;
+    }
+
     #altaybat-web-root {
       /* Palette: Nile Emerald, Harvest Amber Gold, Off-White & Industrial Charcoal */
       --at-green: #084D31;
@@ -105,7 +113,8 @@
       line-height: 1.6;
       font-size: 16px;
       width: 100%;
-      overflow-x: clip;
+      max-width: 100%;
+      overflow-x: hidden;
       box-sizing: border-box;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -1367,16 +1376,22 @@
       display: grid;
       grid-template-columns: 1.15fr 0.85fr;
       gap: 48px;
+      width: 100%;
+      box-sizing: border-box;
     }
     #altaybat-web-root .at-form-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 18px;
+      width: 100%;
+      min-width: 0;
     }
     #altaybat-web-root .at-form-group {
       display: flex;
       flex-direction: column;
       gap: 6px;
+      min-width: 0;
+      width: 100%;
     }
     #altaybat-web-root .at-form-group.full {
       grid-column: span 2;
@@ -1390,6 +1405,9 @@
     #altaybat-web-root .at-select,
     #altaybat-web-root .at-textarea {
       width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
       padding: 11px 14px;
       border: 1px solid var(--at-border);
       border-radius: var(--at-radius-sm);
@@ -1399,6 +1417,12 @@
       color: var(--at-ink);
       outline: none;
       transition: var(--at-transition);
+    }
+    #altaybat-web-root .at-select {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      cursor: pointer;
     }
     #altaybat-web-root .at-input:focus,
     #altaybat-web-root .at-select:focus,
@@ -1416,6 +1440,9 @@
       padding: 28px;
       display: flex;
       flex-direction: column;
+      min-width: 0;
+      width: 100%;
+      box-sizing: border-box;
     }
     #altaybat-web-root .at-rfq-preview-header {
       font-size: 1.12rem;
@@ -1427,6 +1454,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    #altaybat-web-root .at-rfq-hint {
+      font-size: 0.78rem;
+      color: var(--at-green);
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.4;
+      word-break: break-word;
     }
     #altaybat-web-root .at-rfq-summary-box {
       background: var(--at-white);
@@ -1439,10 +1479,14 @@
       flex-grow: 1;
       margin-bottom: 20px;
       white-space: pre-wrap;
+      word-break: break-word;
       font-family: inherit;
       resize: vertical;
       min-height: 290px;
       width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
       outline: none;
       transition: var(--at-transition);
     }
@@ -1459,6 +1503,25 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      width: 100%;
+      min-width: 0;
+    }
+    #altaybat-web-root .at-rfq-sub-actions {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      min-width: 0;
+    }
+    #altaybat-web-root .at-rfq-sub-actions .at-btn {
+      flex: 1;
+      min-width: 0;
+    }
+    #altaybat-web-root .at-rfq-sub-actions #atPrintRfqBtn {
+      flex: 0 0 auto;
+      padding: 8px 14px;
+    }
+    #altaybat-web-root .at-print-text {
+      display: none;
     }
 
     /* ==========================================================================
@@ -2101,25 +2164,164 @@
         grid-template-columns: 1fr;
       }
       #altaybat-web-root .at-timeline-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       #altaybat-web-root .at-products-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       #altaybat-web-root .at-quality-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       #altaybat-web-root .at-logistics-grid {
         grid-template-columns: 1fr;
       }
       #altaybat-web-root .at-docs-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       #altaybat-web-root .at-rfq-wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 32px;
+        padding: 32px 24px;
       }
       #altaybat-web-root .at-footer-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* Mobile Container Gutters */
+      #altaybat-web-root .at-container {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      /* Compact Elegant Mobile Header */
+      #altaybat-web-root .at-header-inner {
+        height: 64px;
+        gap: 8px;
+      }
+      #altaybat-web-root .at-header.scrolled .at-header-inner {
+        height: 56px;
+      }
+      #altaybat-web-root .at-logo-wrap {
+        gap: 8px;
+        min-width: 0;
+        flex-shrink: 1;
+      }
+      #altaybat-web-root .at-logo-img {
+        height: 38px;
+        max-width: 120px;
+      }
+      #altaybat-web-root .at-header.scrolled .at-logo-img {
+        height: 32px;
+      }
+      #altaybat-web-root .at-logo-titles {
+        display: none;
+      }
+      #altaybat-web-root .at-header-actions {
+        gap: 6px;
+        flex-shrink: 0;
+        align-items: center;
+      }
+      #altaybat-web-root .at-lang-switch {
+        padding: 2px;
+      }
+      #altaybat-web-root .at-lang-btn {
+        padding: 4px 8px;
+        font-size: 0.72rem;
+      }
+      #altaybat-web-root .at-header-wa-btn {
+        padding: 6px 10px;
+        font-size: 0.76rem;
+        gap: 4px;
+      }
+      #altaybat-web-root .at-mobile-toggle {
+        padding: 6px;
+      }
+      #altaybat-web-root .at-mobile-toggle span {
+        width: 20px;
+        height: 2px;
+      }
+
+      /* Section Spacing & Titles */
+      #altaybat-web-root .at-section {
+        padding: 64px 0;
+      }
+      #altaybat-web-root .at-section-header {
+        margin-bottom: 38px;
+      }
+      #altaybat-web-root .at-section-title {
+        font-size: 1.85rem;
+      }
+
+      /* RFQ Form & Live Specification Polish on Mobile */
+      #altaybat-web-root .at-rfq-wrapper {
+        padding: 20px 14px;
+        border-radius: 18px;
+        gap: 20px;
+        box-shadow: var(--at-shadow-md);
+      }
+      #altaybat-web-root .at-form-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+      }
+      #altaybat-web-root .at-form-group.full {
+        grid-column: span 1;
+      }
+      #altaybat-web-root .at-input,
+      #altaybat-web-root .at-select,
+      #altaybat-web-root .at-textarea {
+        font-size: 0.88rem;
+        padding: 10px 12px;
+      }
+      #altaybat-web-root .at-rfq-preview-card {
+        padding: 16px 12px;
+        border-radius: 16px;
+      }
+      #altaybat-web-root .at-rfq-preview-header {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+      }
+      #altaybat-web-root .at-rfq-preview-header span[data-i18n="rfqSummaryTitle"] {
+        font-size: 0.94rem;
+      }
+      #altaybat-web-root .at-rfq-summary-box {
+        min-height: 220px;
+        padding: 12px;
+        font-size: 0.82rem;
+        margin-bottom: 14px;
+      }
+      #altaybat-web-root #atSendWhatsAppRfqBtn {
+        white-space: normal;
+        text-align: center;
+        padding: 12px 14px;
+        font-size: 0.88rem;
+        line-height: 1.35;
+      }
+      #altaybat-web-root .at-rfq-sub-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      #altaybat-web-root .at-rfq-sub-actions .at-btn {
+        padding: 10px 8px;
+        font-size: 0.78rem;
+        white-space: normal;
+        text-align: center;
+        line-height: 1.25;
+      }
+      #altaybat-web-root .at-rfq-sub-actions #atPrintRfqBtn {
+        grid-column: span 2;
+        padding: 8px 12px;
+        font-size: 0.78rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+      }
+      #altaybat-web-root .at-print-text {
+        display: inline;
       }
     }
 
@@ -2128,16 +2330,16 @@
         display: none;
       }
       #altaybat-web-root .at-hero {
-        padding: 60px 0 50px 0;
+        padding: 50px 0 45px 0;
       }
       #altaybat-web-root .at-hero-title {
-        font-size: 2.1rem;
-      }
-      #altaybat-web-root[dir="rtl"] .at-hero-title {
         font-size: 2rem;
       }
+      #altaybat-web-root[dir="rtl"] .at-hero-title {
+        font-size: 1.95rem;
+      }
       #altaybat-web-root .at-hero-metrics {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       #altaybat-web-root .at-timeline-grid {
         grid-template-columns: 1fr;
@@ -2154,20 +2356,55 @@
       #altaybat-web-root .at-footer-grid {
         grid-template-columns: 1fr;
       }
-      #altaybat-web-root .at-form-grid {
-        grid-template-columns: 1fr;
-      }
-      #altaybat-web-root .at-form-group.full {
-        grid-column: span 1;
-      }
       #altaybat-web-root .at-calc-fields {
         grid-template-columns: 1fr;
       }
       #altaybat-web-root .at-calc-output {
         grid-template-columns: 1fr;
       }
-      #altaybat-web-root .at-section-title {
-        font-size: 1.85rem;
+    }
+
+    @media (max-width: 480px) {
+      #altaybat-web-root .at-container {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+      #altaybat-web-root .at-header-inner {
+        height: 58px;
+        gap: 6px;
+      }
+      #altaybat-web-root .at-header-wa-btn .at-header-wa-text {
+        display: none;
+      }
+      #altaybat-web-root .at-header-wa-btn {
+        padding: 7px 9px;
+        border-radius: 50%;
+        min-width: 34px;
+        height: 34px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #altaybat-web-root .at-header-wa-btn span:first-child {
+        margin: 0;
+        font-size: 1rem;
+      }
+      #altaybat-web-root .at-lang-btn {
+        padding: 3px 6px;
+        font-size: 0.7rem;
+      }
+      #altaybat-web-root .at-rfq-wrapper {
+        padding: 16px 12px;
+        border-radius: 14px;
+      }
+      #altaybat-web-root .at-rfq-preview-card {
+        padding: 14px 10px;
+      }
+      #altaybat-web-root .at-rfq-sub-actions {
+        grid-template-columns: 1fr;
+      }
+      #altaybat-web-root .at-rfq-sub-actions #atPrintRfqBtn {
+        grid-column: span 1;
       }
     }
 </style>
@@ -2293,10 +2530,10 @@
           href="https://wa.me/201065535509?text=Hello%20ALTAYBAT%20FOR%20EXPORT%2C%20I%20am%20interested%20in%20requesting%20a%20quotation." 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="at-btn at-btn-whatsapp at-btn-sm"
+          class="at-btn at-btn-whatsapp at-btn-sm at-header-wa-btn"
           aria-label="Contact WhatsApp Sales"
         >
-          <span>💬</span> <span data-i18n="headerWhatsApp">WhatsApp RFQ</span>
+          <span>💬</span> <span class="at-header-wa-text" data-i18n="headerWhatsApp">WhatsApp RFQ</span>
         </a>
 
         <!-- Mobile Menu Hamburger -->
@@ -3511,7 +3748,7 @@
             </button>
           </div>
 
-          <div style="font-size: 0.78rem; color: var(--at-green); font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+          <div class="at-rfq-hint">
             <span>✏️</span> <span data-i18n="rfqEditableHint">Live editable specification — feel free to customize directly before transmitting.</span>
           </div>
 
@@ -3521,15 +3758,15 @@
             <button class="at-btn at-btn-whatsapp" id="atSendWhatsAppRfqBtn">
               <span>💬</span> <span data-i18n="btnSendWhatsApp">Transmit via WhatsApp (+201065535509)</span>
             </button>
-            <div style="display: flex; gap: 10px;">
-              <button class="at-btn at-btn-primary at-btn-sm" id="atSendEmailRfqBtn" style="flex: 1;">
+            <div class="at-rfq-sub-actions">
+              <button class="at-btn at-btn-primary at-btn-sm" id="atSendEmailRfqBtn">
                 <span>✉️</span> <span data-i18n="btnSendEmail">Send via Email</span>
               </button>
-              <button class="at-btn at-btn-outline at-btn-sm" id="atCopyRfqBtn" style="flex: 1;">
+              <button class="at-btn at-btn-outline at-btn-sm" id="atCopyRfqBtn">
                 <span>📋</span> <span data-i18n="btnCopyRfq">Copy Formatted RFQ</span>
               </button>
-              <button class="at-btn at-btn-outline at-btn-sm" id="atPrintRfqBtn" style="padding: 8px 12px;" title="Print Quotation">
-                <span>🖨️</span>
+              <button class="at-btn at-btn-outline at-btn-sm" id="atPrintRfqBtn" title="Print Quotation">
+                <span>🖨️</span> <span class="at-print-text" data-i18n="btnPrintRfq">Print Quote</span>
               </button>
             </div>
           </div>
